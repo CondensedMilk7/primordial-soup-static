@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Playfair Display', serif; */
+
+:root {
+  --bg: #3c2335;
+  --bg-alt: #e9cddf;
+  --bg-light: #f2e3ef;
+  --fg: #fbf7fa;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Merriweather", serif;
+}
+
+body {
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+header h3 {
+  font-weight: 400;
+}
+
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main-nav__list-item {
+  margin: 0 1em;
+}
+
+.main-nav__link {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.main-nav__link:after {
+  content: "";
+  position: absolute;
+  height: 0.1em;
+  bottom: -0.3em;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 0;
+  background: var(--fg);
+  transition: width 100ms ease-in;
+}
+
+.main-nav__link:hover:after {
+  width: 100%;
+}
