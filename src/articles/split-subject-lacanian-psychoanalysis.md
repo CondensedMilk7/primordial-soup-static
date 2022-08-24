@@ -14,8 +14,6 @@ references:
   - "Parker, I. (2003). Jacques Lacan, Barred Psychologist. Theory & Psychology, 13(1), 95-115. https://doi.org/10.1177/0959354303013001764"
 ---
 
-# The Split Subject: Lacanian Psychoanalysis
-
 The subject can be understood as an agent of the human mind and behavior, along with its sense of self. While certain fields of philosophy and psychology find the locus of the subject in human consciousness, psychoanalysis compels us to look for it beyond the ego, the self-conscious instance, beyond the spoken words, and ultimately to question such an understanding of the term. So it is that we come to doubt the very principles of Cartesian philosophy, where “I think, therefore I am” can be turned upside down and rephrased, as Lacan would, into: “I think where I am not, therefore I am where I do not think” (Lacan, Fink, Fink, & Grigg, 2006). The very sentence that describes the split subject. To understand the meaning of this statement, we must come to it as a conclusion, therefore we must inspect, why the subject is located in the unconscious, not in the ego, and why it is split. In the end, we will also see how psychoanalytic therapy utilizes this knowledge.
 
 ## Ego and Imaginary Alienation

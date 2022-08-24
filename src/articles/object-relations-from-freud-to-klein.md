@@ -16,8 +16,6 @@ references:
   - "Mitchell, S. (1981). The Origin and Nature of the 'Object' in the Theories of Klein and Fairbairn. Contemp. Psychoanal., 17:374-398. https://doi.org/10.1080/00107530.1981.10745670"
 ---
 
-# Object Reations: from Freud to Klein
-
 ## Object of Sigmund Freud
 
 Object is a term chosen by Freud to describe the target of drive gratification, be it something imaginary (an idea, fantasy), or real (food, sexual partner, etc.). Despite the fact that other people play a crucial role in Freud's work, "object" is the most accidental and least inherent concept in his theory of drive. A certain source, goal, and impetus are a priori, so to speak, an inherent part of the drive, but the object itself is dependent on the experience. It is discovered through the interaction with the outer (or inner) world and only later does it become attached to the drive. Object is merely a medium with which the drive gratification occurs (Mitchell, 1981).

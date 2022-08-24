@@ -6,20 +6,11 @@ layout: "base.njk"
 ---
 
 {% include 'hero.njk' %}
-<section class="announcements">
-    <div class="section-content">
-        <h1>Announcements & News</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorem amet quibusdam? Fugit voluptatum, itaque at
-            placeat excepturi explicabo sunt?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate alias veniam laboriosam animi dolorem?</p>
-    </div>
-</section>
 <section class="recent-article">
-    <div class="section-content-alt">
+    <div class="section-content">
         <h1>Recent Article</h1>
         {%- for article in collections.featured -%}
-            <article class="featured-article">
-                <img src="{{ article.data.image }}" alt="featured article thumbnail"></article>
-            {%- endfor -%}
-        </div>
-    </section>
+            {% include 'article-preview.njk' %}
+        {%- endfor -%}
+    </div>
+</section>

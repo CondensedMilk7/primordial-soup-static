@@ -1,12 +1,11 @@
 <header>
-    <h3>PRIMORDIAL SOUP</h3>
+    <a href="/" class="header__logo">
+        <h3>PRIMORDIAL SOUP</h3>
+    </a>
     <nav class="main-nav">
         <ul class="main-nav__list">
             <li class="main-nav__list-item">
                 <a class="main-nav__link {{ 'nav-active' if '/articles' in page.url }}" href="/articles">ARTICLES</a>
-            </li>
-            <li class="main-nav__list-item">
-                <a class="main-nav__link {{ 'nav-active' if '/home' in page.url }}" href="/">HOME</a>
             </li>
             <li class="main-nav__list-item">
                 <a class="main-nav__link {{ 'nav-active' if '/about' in page.url }}" href="/about">ABOUT</a>

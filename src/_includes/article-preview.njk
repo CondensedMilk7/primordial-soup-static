@@ -2,7 +2,7 @@
     <img src="{{ article.data.image }}" alt="article thumbnail">
     <div class="article-content">
         <h1>{{ article.data.title }}</h1>
-        <p>by
+        <p class="article-content__author">by
             <a class="author-link" href="{{ article.data.authorPage }}" target="_blank">{{ article.data.author }}</a>
             on
             <span>{{ article.data.date | postDate }}</span>

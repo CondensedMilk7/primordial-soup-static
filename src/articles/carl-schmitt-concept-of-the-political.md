@@ -9,8 +9,6 @@ references:
   - "Schmitt, C., & Schmitt, C. (2007). The concept of the political. Chicago: University of Chicago Press."
 ---
 
-# Concept of the Political - Carl Schmitt
-
 Let us assume – Schmitt argues – that in the realm of morality the final distinctions are between good and evil, in aesthetics beautiful and ugly, in economics profitable and unprofitable. The question then is whether there is also a special distinction that can serve as a simple criterion of the political and of what it consists. The nature of such a political distinction is surely different from that of those others. It is independent of them and as such can speak clearly for itself (Schmitt 2007, 42). The Political per se is often formulated as antitheses of other realms of thought such as morality, law, religion, culture and thus is deprived of its own essence. Hence Schmitt aspires to offer us ultimate, substantive criteria for the political that cannot be reduced to anything but itself. Criteria that is independent of any realm of thought and does not borrow itself from any other social domains.
 
 This criterion – according to Schmitt -, this specific distinction to which any political action and motive can be reduced is that between friend and enemy.

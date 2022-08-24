@@ -22,6 +22,12 @@ html {
   font-family: "Merriweather", serif;
 }
 
+@media (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 body {
   color: var(--text);
 }
@@ -35,6 +41,11 @@ header {
   padding: 1.2rem 1rem;
   font-size: 1.2rem;
   z-index: 10;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: var(--fg);
 }
 
 header h3 {
@@ -131,7 +142,7 @@ section {
 }
 
 .section-content {
-  max-width: 55rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
@@ -147,20 +158,11 @@ section p {
   margin: 1.2rem 0;
 }
 
-.announcements {
+.recent-article {
   text-align: center;
   background: var(--bg-alt);
   min-height: 26rem;
-  padding-top: 3rem;
-}
-
-.recent-article {
-  padding: 1rem 0;
-}
-
-.recent-article h1 {
-  text-align: center;
-  margin: 2rem 0;
+  padding: 3rem 0;
 }
 
 .featured-article img {
@@ -252,6 +254,11 @@ footer {
 
 .article-content h1 {
   margin-bottom: 2rem;
+  text-align: left;
+}
+
+.article-content__author {
+  text-align: left;
 }
 
 .article-description {
@@ -318,6 +325,10 @@ footer {
   margin: 1.5rem 0;
 }
 
+#article-title {
+  margin: 0;
+}
+
 .main-article h1 {
   font-size: 2rem;
   margin-bottom: 4rem;
@@ -350,14 +361,18 @@ footer {
 .article-date {
   position: relative;
   width: fit-content;
-  margin: auto;
+  margin: 0;
+}
+
+.article-author {
+  margin: 0;
 }
 
 .article-date::after {
   content: "";
   position: absolute;
   height: 0.15em;
-  bottom: -1em;
+  bottom: -0.5em;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -369,4 +384,10 @@ p.reference {
   padding-left: 3rem;
   text-indent: -3rem;
   text-align: left;
+}
+
+@media (max-width: 400px) {
+  p.reference {
+    line-break: anywhere;
+  }
 }

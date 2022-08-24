@@ -13,8 +13,6 @@ references:
   - "Berlin, I. (1958). Two Concepts of Liberty. Oxford University Press: Oxford."
 ---
 
-# Natural Rights and Positivism - Leo Strauss
-
 In the last video, I discussed the relationship between historicism and
 natural right according to Leo Strauss. And showed the fruits that this
 relationship bears. However, I have not yet discussed the relationship
