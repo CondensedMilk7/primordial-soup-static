@@ -47,6 +47,22 @@ a {
   cursor: pointer;
 }
 
+.hamburger {
+  display: none;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .main-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 .main-nav__list {
   list-style: none;
   display: flex;
@@ -210,6 +226,17 @@ footer {
   display: flex;
 }
 
+@media (max-width: 900px) {
+  .article-preview {
+    flex-direction: column;
+  }
+
+  .article-preview img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .article-preview img {
   width: 26rem;
   height: 18rem;
@@ -306,6 +333,10 @@ footer {
 .main-article ul {
   list-style-position: inside;
   padding-left: 1rem;
+}
+
+.main-article li {
+  list-style-position: inside;
 }
 
 .article-info {

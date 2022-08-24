@@ -13,7 +13,9 @@ layout: "base.njk"
         <p class="article-author">
             <strong>Author(s):
             </strong>
-            {{ author }}
+            <a href="{{ authorPage }}" target="_blank">
+                {{ author }}
+            </a>
         </p>
     </div>
     {{ content | safe }}

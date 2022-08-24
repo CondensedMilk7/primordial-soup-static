@@ -1,6 +1,7 @@
 ---
 title: "Split Subject: Lacanian Psychoanalysis"
 author: Pridon Tetradze
+authorPage: "https://pridontetradze.com"
 videoUrl: "https://www.youtube.com/watch?v=4kxZsWLi-04"
 date: 2021-03-05
 image: "https://i.ytimg.com/vi/4kxZsWLi-04/hq720.jpg"

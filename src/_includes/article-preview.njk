@@ -3,14 +3,14 @@
     <div class="article-content">
         <h1>{{ article.data.title }}</h1>
         <p>by
-            <a class="author-link">{{ article.data.author }}</a>
+            <a class="author-link" href="{{ article.data.authorPage }}" target="_blank">{{ article.data.author }}</a>
             on
             <span>{{ article.data.date | postDate }}</span>
         </p>
         <p class="article-description">{{ article.data.description }}</p>
         <div class="article-preview__actions">
             <a href="{{ article.url }}" class="button">READ</a>
-            <a href="{{ article.data.videoUrl }}" class="button">WATCH</a>
+            <a href="{{ article.data.videoUrl }}" class="button" target="_blank">WATCH</a>
         </div>
     </div>
 </article>

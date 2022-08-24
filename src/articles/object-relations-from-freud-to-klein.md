@@ -1,6 +1,7 @@
 ---
 title: "Object Relations: from Freud to Klein"
 author: Pridon Tetradze
+authorPage: "https://pridontetradze.com"
 videoUrl: "https://www.youtube.com/watch?v=28xw9mfUc9Y"
 date: 2021-06-20
 image: "https://i.ytimg.com/vi/28xw9mfUc9Y/hq720.jpg"
