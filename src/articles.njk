@@ -1,81 +1,13 @@
 ---
 layout: "base.njk"
+title: Articles
 ---
 
 <div class="articles-container">
     <div class="articles-background"></div>
     <div class="articles">
-        <article class="article-preview">
-            <img src="https://i.ytimg.com/vi/4kxZsWLi-04/hq720.jpg" alt="">
-            <div class="article-content">
-                <h1>Split Subject: Lacanian Psychoanalysis</h1>
-                <p>by
-                    <a class="author-link">Pridon Tetradze</a>
-                    on
-                    <span>Jun 20, 2021</span>
-                </p>
-                <p class="article-description">The subject can be understood as an agent of the human mind and behavior, along with its
-                    sense of self. While certain fields of philosophy and psychology find the locus of the subject in human consciousness,
-                    psychoanalysis compels us to...</p>
-                <div class="article-preview__actions">
-                    <a href="" class="button">READ</a>
-                    <a href="" class="button">WATCH</a>
-                </div>
-            </div>
-        </article>
-        <article class="article-preview">
-            <img src="https://i.ytimg.com/vi/4kxZsWLi-04/hq720.jpg" alt="">
-            <div class="article-content">
-                <h1>Split Subject: Lacanian Psychoanalysis</h1>
-                <p>by
-                    <a class="author-link">Pridon Tetradze</a>
-                    on
-                    <span>Jun 20, 2021</span>
-                </p>
-                <p class="article-description">The subject can be understood as an agent of the human mind and behavior, along with its
-                    sense of self. While certain fields of philosophy and psychology find the locus of the subject in human consciousness,
-                    psychoanalysis compels us to...</p>
-                <div class="article-preview__actions">
-                    <a href="" class="button">READ</a>
-                    <a href="" class="button">WATCH</a>
-                </div>
-            </div>
-        </article>
-        <article class="article-preview">
-            <img src="https://i.ytimg.com/vi/4kxZsWLi-04/hq720.jpg" alt="">
-            <div class="article-content">
-                <h1>Split Subject: Lacanian Psychoanalysis</h1>
-                <p>by
-                    <a class="author-link">Pridon Tetradze</a>
-                    on
-                    <span>Jun 20, 2021</span>
-                </p>
-                <p class="article-description">The subject can be understood as an agent of the human mind and behavior, along with its
-                    sense of self. While certain fields of philosophy and psychology find the locus of the subject in human consciousness,
-                    psychoanalysis compels us to...</p>
-                <div class="article-preview__actions">
-                    <a href="" class="button">READ</a>
-                    <a href="" class="button">WATCH</a>
-                </div>
-            </div>
-        </article>
-        <article class="article-preview">
-            <img src="https://i.ytimg.com/vi/4kxZsWLi-04/hq720.jpg" alt="">
-            <div class="article-content">
-                <h1>Split Subject: Lacanian Psychoanalysis</h1>
-                <p>by
-                    <a class="author-link">Pridon Tetradze</a>
-                    on
-                    <span>Jun 20, 2021</span>
-                </p>
-                <p class="article-description">The subject can be understood as an agent of the human mind and behavior, along with its
-                    sense of self. While certain fields of philosophy and psychology find the locus of the subject in human consciousness,
-                    psychoanalysis compels us to...</p>
-                <div class="article-preview__actions">
-                    <a href="" class="button">READ</a>
-                    <a href="" class="button">WATCH</a>
-                </div>
-            </div>
-        </article>
+        {%- for article in collections.article | reverse -%}
+            {% include 'article-preview.njk' %}
+        {%- endfor -%}
     </div>
 </div>

@@ -1,3 +1,20 @@
+---
+title: "Object Relations: from Freud to Klein"
+author: Pridon Tetradze
+videoUrl: "https://www.youtube.com/watch?v=28xw9mfUc9Y"
+date: 2021-06-20
+image: "https://i.ytimg.com/vi/28xw9mfUc9Y/hq720.jpg"
+description: '"Drives, for Klein, are relationships" (Greenberg & Mitchell, 1983) and so, relations as such are at the center of investigation for object-relations theory.'
+references:
+  - "Freud, S., & Strachey, J. (1962). The ego and the id. New York: Norton."
+  - "Greenberg, J. R., & Mitchell, S. A. (1983). Object relations in psychoanalytic theory. Cambridge, Mass: Harvard University Press."
+  - "Klein, M. (1932). The Psycho-Analysis of Children., London: Hogarth."
+  - "Klein, M. (1952). The mutual influences in the development of ego and id., Psychoanal. Study Child, 7:51-53."
+  - "Klein, M. (1952). The origins of transference., Int. J. Psychoanal., 33:433-438."
+  - "Klein, M. (1988). Love, guilt and reparation: And other works 1921-1945. London: Virago."
+  - "Mitchell, S. (1981). The Origin and Nature of the 'Object' in the Theories of Klein and Fairbairn. Contemp. Psychoanal., 17:374-398. https://doi.org/10.1080/00107530.1981.10745670"
+---
+
 # Object Reations: from Freud to Klein
 
 ## Object of Sigmund Freud

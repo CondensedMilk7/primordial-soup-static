@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Academic inquiry outside academia
-image: ""
+image: "/assets/images/wallpaper-soup.jpg"
 layout: "base.njk"
 ---
 
@@ -17,5 +17,9 @@ layout: "base.njk"
 <section class="recent-article">
     <div class="section-content-alt">
         <h1>Recent Article</h1>
-    </div>
-</section>
+        {%- for article in collections.featured -%}
+            <article class="featured-article">
+                <img src="{{ article.data.image }}" alt="featured article thumbnail"></article>
+            {%- endfor -%}
+        </div>
+    </section>

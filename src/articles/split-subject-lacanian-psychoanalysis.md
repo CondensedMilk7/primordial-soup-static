@@ -1,3 +1,18 @@
+---
+title: "Split Subject: Lacanian Psychoanalysis"
+author: Pridon Tetradze
+videoUrl: "https://www.youtube.com/watch?v=4kxZsWLi-04"
+date: 2021-03-05
+image: "https://i.ytimg.com/vi/4kxZsWLi-04/hq720.jpg"
+description: '"I identify myself in language, but only by losing myself in it like an object." - Jacques Lacan'
+references:
+  - "Chiesa, L. (2007). Subjectivity and otherness: A philosophical reading of Lacan. MIT Press. https://doi.org/10.7551/mitpress/7454.001.0001"
+  - "Fink, B. (1995). The Lacanian Subject: Between Language and Jouissance. Princeton University Press."
+  - "Lacan, J. (1988). Seminar I, Freud's Papers on Technique. New York: Nortion; Cambridge: Cambridge University Press."
+  - "Lacan, J., Fink, B., Fink, H., & Grigg, R. (2006). Écrits (First complete edition in English). W. W. Norton & Company."
+  - "Parker, I. (2003). Jacques Lacan, Barred Psychologist. Theory & Psychology, 13(1), 95-115. https://doi.org/10.1177/0959354303013001764"
+---
+
 # The Split Subject: Lacanian Psychoanalysis
 
 The subject can be understood as an agent of the human mind and behavior, along with its sense of self. While certain fields of philosophy and psychology find the locus of the subject in human consciousness, psychoanalysis compels us to look for it beyond the ego, the self-conscious instance, beyond the spoken words, and ultimately to question such an understanding of the term. So it is that we come to doubt the very principles of Cartesian philosophy, where “I think, therefore I am” can be turned upside down and rephrased, as Lacan would, into: “I think where I am not, therefore I am where I do not think” (Lacan, Fink, Fink, & Grigg, 2006). The very sentence that describes the split subject. To understand the meaning of this statement, we must come to it as a conclusion, therefore we must inspect, why the subject is located in the unconscious, not in the ego, and why it is split. In the end, we will also see how psychoanalytic therapy utilizes this knowledge.

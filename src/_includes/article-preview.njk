@@ -1,0 +1,16 @@
+<article class="article-preview">
+    <img src="{{ article.data.image }}" alt="article thumbnail">
+    <div class="article-content">
+        <h1>{{ article.data.title }}</h1>
+        <p>by
+            <a class="author-link">{{ article.data.author }}</a>
+            on
+            <span>{{ article.data.date | postDate }}</span>
+        </p>
+        <p class="article-description">{{ article.data.description }}</p>
+        <div class="article-preview__actions">
+            <a href="{{ article.url }}" class="button">READ</a>
+            <a href="{{ article.data.videoUrl }}" class="button">WATCH</a>
+        </div>
+    </div>
+</article>

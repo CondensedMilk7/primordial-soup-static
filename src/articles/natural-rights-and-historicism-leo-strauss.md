@@ -1,3 +1,15 @@
+---
+title: Natural Rights and Historicism - Leo Strauss
+author: "Gabriel J. Zautashvili"
+videoUrl: "https://www.youtube.com/watch?v=WvCnIlREvSQ"
+date: 2021-11-13
+image: "https://i.ytimg.com/vi/WvCnIlREvSQ/hq720.jpg"
+description: '"the attempt to make man absolutely at home in this world ended in man''s becoming absolutely homeless" - Leo Strauss'
+references:
+  - "Strauss, L. (1953). Natural right and history. Chicago: University of Chicago Press. "
+  - "Strauss, L., & Cropsey, J. (1987). History of political philosophy. Chicago: University of Chicago Press."
+---
+
 # Natural Rights and Historicism – Leo Strauss
 
 Strauss starts his lecture with the famous passage from the Declaration of Independence:

@@ -9,6 +9,7 @@
   --bg-light: #f2e3ef;
   --fg: #fbf7fa;
   --black: #000000;
+  --text: #181216;
 }
 
 * {
@@ -19,6 +20,10 @@
 
 html {
   font-family: "Merriweather", serif;
+}
+
+body {
+  color: var(--text);
 }
 
 header {
@@ -133,10 +138,17 @@ section p {
   padding-top: 3rem;
 }
 
+.recent-article {
+  padding: 1rem 0;
+}
+
 .recent-article h1 {
   text-align: center;
-  min-height: 26rem;
-  padding-top: 3rem;
+  margin: 2rem 0;
+}
+
+.featured-article img {
+  max-width: 40rem;
 }
 
 footer {
@@ -157,16 +169,6 @@ footer {
 .social-links a {
   margin: 0 0.2rem;
 }
-
-/* .background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 50vh;
-  width: 50vw;
-
-  z-index: 1;
-} */
 
 .articles-container {
   position: relative;
@@ -253,4 +255,87 @@ footer {
 .button:hover {
   color: var(--bg);
   background: var(--fg);
+}
+
+.main-article {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem 3vw;
+  background-color: var(--bg-light);
+  position: relative;
+}
+
+.article-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(/assets/images/wallpaper-soup.jpg);
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(2px); */
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.main-article h1,
+.main-article h2,
+.main-article h3,
+.main-article h4 {
+  margin: 1.5rem 0;
+}
+
+.main-article h1 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.main-article p {
+  text-align: justify;
+  margin: 1rem 0;
+  line-height: 1.6rem;
+}
+
+.main-article ul {
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
+.article-info {
+  text-align: center;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-date {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.article-date::after {
+  content: "";
+  position: absolute;
+  height: 0.15em;
+  bottom: -1em;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: rgb(39, 38, 38);
+}
+
+p.reference {
+  padding-left: 3rem;
+  text-indent: -3rem;
+  text-align: left;
 }
