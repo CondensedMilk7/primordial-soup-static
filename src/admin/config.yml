@@ -18,5 +18,10 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["article"] }
       - { label: "Thumbnail", name: "image", widget: "string" }
-      - { label: "References", name: "references", widget: "list" }
+      - {
+          label: "References",
+          name: "references",
+          widget: "list",
+          fields: { label: "Reference", name: "reference", widget: "string" },
+        }
       - { label: "Body", name: "body", widget: "markdown" }
