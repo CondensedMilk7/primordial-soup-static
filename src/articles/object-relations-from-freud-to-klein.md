@@ -21,6 +21,7 @@ authorPage: https://pridontetradze.com
 description: '"Drives, for Klein, are relationships" (Greenberg & Mitchell,
   1983) and so, relations as such are at the center of investigation for
   object-relations theory.'
+tags: featured
 image: https://i.ytimg.com/vi/28xw9mfUc9Y/hq720.jpg
 ---
 

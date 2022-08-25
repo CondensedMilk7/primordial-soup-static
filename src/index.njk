@@ -8,8 +8,8 @@ layout: "base.njk"
 {% include 'hero.njk' %}
 <section class="recent-article">
     <div class="section-content">
-        <h1>Recent Article</h1>
-        {%- for article in collections.featured -%}
+        <h1>Featured Articles</h1>
+        {%- for article in collections.featured | reverse -%}
             {% include 'article-preview.njk' %}
         {%- endfor -%}
     </div>
