@@ -325,6 +325,10 @@ footer {
   list-style-position: inside;
 }
 
+.main-article blockquote {
+  padding: 0 1rem;
+}
+
 .article-info {
   text-align: center;
   padding-top: 3rem;
