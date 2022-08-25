@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 # will only use image links for now and not this
-# media_folder: "public/assets/articles"
-# public_folder: "/assets/articles"
+media_folder: "public/assets/articles"
+public_folder: "/assets/articles"
 collections:
   - name: "article"
     label: "Article"
