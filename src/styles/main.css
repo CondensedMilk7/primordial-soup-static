@@ -444,6 +444,14 @@ p.reference {
   html {
     font-size: 14px;
   }
+
+  .article-background {
+    display: none;
+  }
+
+  .articles-background {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
