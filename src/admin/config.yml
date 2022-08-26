@@ -22,6 +22,6 @@ collections:
           label: "References",
           name: "references",
           widget: "list",
-          fields: [{ label: "Reference", name: "reference", widget: "string" }],
+          field: { label: "Reference", name: "reference", widget: "string" },
         }
       - { label: "Body", name: "body", widget: "markdown" }
