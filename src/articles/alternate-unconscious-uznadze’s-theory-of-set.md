@@ -202,7 +202,7 @@ Once a completely new set is differentiated it serves its purpose and recedes if
 
 There is no concrete general measurement on how many repetitions a set requires to become fixed. It largely depends on both the individual and the context in which he acts. It is even possible for the fixation to not occur at all, despite the amount of stimuli given, while in some subjects, even one strong impression is enough. In this case, the subject himself plays a crucial role, as a unitary living being. In experiments of Uznadze (2009), for example, it took 15 repetitions to successfully fixate the set in the majority of subjects.
 
-In conclusion, when we speak about the formation of set, at the first stage we have a _situational_ (or _diffused_) set which has yet to be differentiated i.e to develop a distinct form. Through the help of _repetition_ or _personal significance_ of the situation, event or stimulus, the set starts to become _fixed_ as it acquires _firmness_ – an ability to retain itself within the subject and to have readiness for actualization, provided that the subject encounters the same situation.
+In conclusion, when we speak about the formation of set, at the first stage we have a _situational_ (or _diffused_) set which has yet to be differentiated i.e to develop a distinct form. Through the help of _repetition_ or _personal significance_ of the situation, event or stimulus, the set starts to become _fixed_ as it acquires an ability to retain itself within the subject and to have readiness for actualization, provided that the subject encounters the same situation.
 
 ## 6.3 Intricacies of Fixed and Situational Set
 
