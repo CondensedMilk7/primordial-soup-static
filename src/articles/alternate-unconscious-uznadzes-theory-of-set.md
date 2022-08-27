@@ -72,7 +72,7 @@ Allport (1935) noted that H. Spencer was the first to put attitude under scienti
 
 The issue of terminology, such as using different terms to describe the same phenomenon has been rather intricate and it will be addressed in chapter 4. For, now I will formulate a general definition that, upon reading the next chapters, can be dissected and understood in depth:
 
-A set is a psycho-physical state of readiness that arises upon a specific coincidence of individual’s need with the situation and operational capacity and which determines his or her purposive behavior.
+> A set is a psycho-physical state of readiness that arises upon a specific coincidence of individual’s need with the situation and operational capacity and which determines his or her purposive behavior.
 
 # 3 Defining Set Through Charpentier’s Illusion
 
@@ -92,7 +92,7 @@ size to be different (Nadirashvili, 1983).
 
 From the aforementioned experiment, it was concluded that by fixating the set in the subjects, a particular inner condition is formed, which is not immediately present in the consciousness, as there is no consciousness in the hypnotic sleep (and therefore, no expectation to be disappointed), yet it persists and influences the conscious actions, such as deciding which sphere is larger. Such definition resonates well with Allport’s definition of attitude:
 
-“a mental and neural state of readiness, organized through experience, exerting a directive and dynamic influence upon the individual’s response to all objects and situations with which it is related.” (Allport, 1935, p.810)
+> “a mental and neural state of readiness, organized through experience, exerting a directive and dynamic influence upon the individual’s response to all objects and situations with which it is related.” (Allport, 1935, p.810)
 
 Here, a mental and neural state of readiness, of course, doesn’t necessarily mean a conscious state, nor does it completely dismiss the influence of the conscious processes. At the same time, it is a state of readiness for any context, not constrained in social domain as one would expect from the term “attitude”.
 
@@ -100,7 +100,7 @@ Here, a mental and neural state of readiness, of course, doesn’t necessarily m
 
 It is important to see how Uznadze’s experiments tackle the issue. The notion of set doesn’t simply aim to explain a particular phenomenon like Charpentier’s illusion. It is a theory that attempts to explain the general functioning of a human being as a whole. A theory using this approach is called a big (or general) theory. This is something that was often outside of the scope of the majority of research made in the field of psychology. There has seldom been a unified theory that would explain both specific peculiarities of psychological activity and human activity as a whole. This often resulted in a vast body of contradictory theories, experiments, and correlations that seemingly led to nowhere – the issue often present in small theories that focus on explaining just one particular, isolated phenomenon.
 
-“When outlining the basis of the theory, Uznadze discussed set not as one of many psychological emergances, which should shed light on some psychological phenomena, but as the basis of human activity, which serves as a mediator between the human and the environment, moderating their interaction, determining human behavior, allowing it to be conducted purposively.” (Nadirashvili, 1983, p.41)
+> “When outlining the basis of the theory, Uznadze discussed set not as one of many psychological emergances, which should shed light on some psychological phenomena, but as the basis of human activity, which serves as a mediator between the human and the environment, moderating their interaction, determining human behavior, allowing it to be conducted purposively.” (Nadirashvili, 1983, p.41)
 
 Theory of set, in this regard, falls in the same category as, for example, psychoanalysis, gestalt psychology, field theory, etc. Although no theory, big or small, is safe from inconsistencies and contradictions, the unified
 
@@ -130,7 +130,7 @@ Nadirashvili (1983) provided an additional factor, _operational capacity_, which
 
 The activity of a human organism can be explained on different levels. Since the psychology of set concerns itself with human activity as a whole in relation to the environment, the need is understood in its general sense, not only as instinctual, social, functional or theoretical.
 
-“The need can be described as any state of a psycho-physical organism, which requires a change of environment, as it is provided with the necessary impulses for activity.” (Uznadze, 2008)
+> “The need can be described as any state of a psycho-physical organism, which requires a change of environment, as it is provided with the necessary impulses for activity.” (Uznadze, 2008)
 
 It is important to note, however, that the need provides the organism with necessary impulses to adapt to or change the environment, but it does not organize them, in a sense that the need is only a (more or less primitive) tendency that cannot integrate the necessary impulses with the reflected environment (situation) to guarantee the correct usage of psycho-physical resources.
 
@@ -148,7 +148,7 @@ rect act of gratification is impeded and the task at hand becomes the object of 
 
 When we talk about _situation_ in set psychology, we have in mind the relevant part of the environment that makes gratification of the need possible. A need on its own can not be satisfied without the object given in the environment but the need becomes individually “defined” when it can be gratified through a certain situation.
 
-“When there are no respective situations for individual’s needs, the tendencies towards activities that are contained in those needs remain in a passive, inactive state.”(Nadirashvili, 1983, p.210)
+> “When there are no respective situations for individual’s needs, the tendencies towards activities that are contained in those needs remain in a passive, inactive state.”(Nadirashvili, 1983, p.210)
 
 While the need incorporates an impetus, the organism has no way of knowing what kind of activity must be conducted in order to satisfy it, unless the situation – which not only distinguishes future activity – gives the need a discrete, individual form.
 
@@ -156,7 +156,7 @@ Moreover, in order for the behavior to be purposive, the situation and need have
 
 ## 5.3 Operational Capacity
 
-“The problem of purposive behavior implies the discovery of the mechanism that allows the individual to put all inner forces in service to this behavior.” (Nadirashvili, 1983, p.218)
+> “The problem of purposive behavior implies the discovery of the mechanism that allows the individual to put all inner forces in service to this behavior.” (Nadirashvili, 1983, p.218)
 
 An individual can conduct a behavior that doesn’t lead to the gratification of his need. In this case, the behavior lacks purposiveness. For example, one might intend to jump over a hole in the ground but fall in it because he did not jump hard enough. For the behavior to be purposive (to successfully jump over the hole), it, therefore, should not only have a relevant need and situation, but also an ability to utilize the right capabilities (in this case, leg strength).
 
@@ -174,7 +174,7 @@ exposures are often not enough for participants to make them perceive final equa
 
 When we encounter familiar situations, our readiness to act is well-formed. That is to say, we make quick decisions, our behavior is distinct and efficient as we know (consciously or unconsciously) what to do and how to do it. That is because we have been in similar situations many times and more often we find ourselves in them, the easier it becomes for us to actualize our readiness to act, which provides us with more concise “schemas” of behavior.
 
-“Suppose that in a certain situation I have developed a set that has played its role by giving an appropriate direction to behavior. But what happens to it after that? Does it disappear without any trace, as if it never existed, or does it somehow continue to exist, retaining the ability to influence behavior again? Since set is a modification of the subject as a unity, it is obvious that after fulfilling its role it must immediately cede its place to another set, that is, it should disappear. But this does not mean that it must cease to exist once and for all and in its entirety. On the contrary, when the subject lands in the same situation, he should develop the set in question much more easily than if he were in a completely new situation that required creating a fundamentally new set. We can safely say that a set, once created, is not lost, the subject retains it in the form of _readiness for reactualization_ in the event that the same conditions recur.” (Uznadze, 2009, p.80)
+> “Suppose that in a certain situation I have developed a set that has played its role by giving an appropriate direction to behavior. But what happens to it after that? Does it disappear without any trace, as if it never existed, or does it somehow continue to exist, retaining the ability to influence behavior again? Since set is a modification of the subject as a unity, it is obvious that after fulfilling its role it must immediately cede its place to another set, that is, it should disappear. But this does not mean that it must cease to exist once and for all and in its entirety. On the contrary, when the subject lands in the same situation, he should develop the set in question much more easily than if he were in a completely new situation that required creating a fundamentally new set. We can safely say that a set, once created, is not lost, the subject retains it in the form of _readiness for reactualization_ in the event that the same conditions recur.” (Uznadze, 2009, p.80)
 
 This is what characterizes a fixed set – an ability to remain in “the readiness for reactualization”. We could argue that what comprises a great deal of human personality is in fact a vast multitude of fixed sets, acquired through experience or genetic inheritance. It is no wonder that in set psychology there is a term called “dispositional set” that is akin to a personality trait and experience.
 
@@ -182,7 +182,7 @@ In Uznadze’s experiments, the repeated exposures played a crucial role. The se
 
 The more often the set arises, the greater the readiness for actualization becomes. Apart from repetition, a certain situation can leave a powerful impression on the subject, so much so that even one occurance of this situation can be enough to make the set extremely fixed. Consequently, this often leads the subject to incorrectly reflect the newer situation. Instead of forming a new set, or utilizing a corresponding fixed set, the previous extremely fixed set becomes actualized and henceforth the subject becomes the victim of an illusion. This concept opens up possibilities of exploring psychological trauma in novel ways but this is beyond the scope of our discussion. We are interested on how the fixed set explains Uznadzde’s experiments.
 
-“Therefore, because of frequent repetition or significant personal importance, a certain set may be as easily aroused as a habitual one that is easily actualized even under the influence of an unrelated stimulus that impedes the appearance of the appropriate set. This may be called a _fixed set._” (Uznadze, 2009, p.80)
+> “Therefore, because of frequent repetition or significant personal importance, a certain set may be as easily aroused as a habitual one that is easily actualized even under the influence of an unrelated stimulus that impedes the appearance of the appropriate set. This may be called a _fixed set._” (Uznadze, 2009, p.80)
 
 Indeed, this is what happens in Uznadze’s experiments, where upon many repetitions, the perception of two different stimuli is so strongly fixed that later, even the two identical stimuli are perceived to be different.
 
@@ -192,7 +192,7 @@ It is important to note that although the purpose of set is subject’s adaptati
 
 What should we make of the set that is never retained in the subject and which simply disappears after serving its purpose as the corresponding situation never presents itself again?
 
-“At the initial conception, the set does not simply form in a complete form, but rather it is usually in the undifferentiated state that lacks individualized nature.” (Uznadze, 2008, p.69)
+> “At the initial conception, the set does not simply form in a complete form, but rather it is usually in the undifferentiated state that lacks individualized nature.” (Uznadze, 2008, p.69)
 
 When we are dealing with the set at its earliest stage of formation it is rather difficult to observe and study because it is diffused, and the behavior it produces is less apparent. It is important to note that if the set is not differentiated, it will not produce an organized behavior, let alone an observable one because the factors of set are not yet differentiated and they are not corresponding to each other (Nadareishvili, 2016). This is why, in unfamiliar situations, people tend to become clumsy and awkward. First and foremost, then, the factors of set must be differentiated, which is difficult in an unfamiliar situation and requires a bit more effort.
 
@@ -208,7 +208,7 @@ In conclusion, when we speak about the formation of set, at the first stage we h
 
 There’s a complex interrelation between different sets within the individual which becomes apparent when we observe assimilative and contrast illusions that were present in experiments regarding object size. It also gives us insight on how the set disappears, allowing a new set to replace it.
 
-“A test subject is repeatedly (ten to fifteen times) handed, and asked to compare, two objects that differ only in volume: a small one in the right hand, a large one in the left. When the test subject participates seriously in this experiment, he develops, under the effect of our instructions, a need to accomplish the task assigned to him (the subjective factor of set). The proffered objects (the objective factor) act on the subject who has this need by producing a specific effect (the set), on the basis of which a correct assessment is made of the relative volumes of these objects. Consequently, after each hand-off, the test subject develops a set (“big one on the left, little one on the right”). As a result of multiple repetitions this set becomes so habitual that in each subsequent experiment it is actualized even before the proffered objects exert the appropriate effect. After that, the test subject is handed, and
+> “A test subject is repeatedly (ten to fifteen times) handed, and asked to compare, two objects that differ only in volume: a small one in the right hand, a large one in the left. When the test subject participates seriously in this experiment, he develops, under the effect of our instructions, a need to accomplish the task assigned to him (the subjective factor of set). The proffered objects (the objective factor) act on the subject who has this need by producing a specific effect (the set), on the basis of which a correct assessment is made of the relative volumes of these objects. Consequently, after each hand-off, the test subject develops a set (“big one on the left, little one on the right”). As a result of multiple repetitions this set becomes so habitual that in each subsequent experiment it is actualized even before the proffered objects exert the appropriate effect. After that, the test subject is handed, and
 
 asked to compare, objects with equal rather than different volumes (the critical experiment). What occurs in this instance? If objects of not very different volumes were used in the experiments designed to create a certain set, then the habitual set remains in effect, and the assessment of the equal objects is based on that: the right-hand object seems smaller to the test subject than the left-hand one. But if objects of starkly different volumes are used in the set experiments, when equal objects are presented in the critical experiment, the old set cannot manifest itself because of its gross discordance with the objective factor, and a new set must take its place. The experiments prove that everything occurs just that way.” (Uznadze, 2009, p.81)
 
@@ -232,7 +232,7 @@ In the early stages of the set theory, a more primitive level of human activity 
 
 On the first level, we encounter an _impulsive_ behavior. The behavior is, in this case, largely directed by set. An individual’s relation to the environment is mostly fragmented and practical – purely for the sake of “consumption”. The individual only interacts with the parts of the reality that is related to his need.
 
-“During impulsive behavior, be it eating or a different form of consumption, an individual chooses, on the basis of his set, the agents of activity. He chooses food on the table that looks the most attractive to him. If this procedure happens on an official feast, he impulsively, through set, follows all the rules and etiquette which is socially reinforced and which he has developed from experience. For an individual who is well versed in this domain, reflecting necessary objects, giving direction to physical forces towards them and obeying the etiquette of the feast does not require special attention and volition”. (Nadirashvili, 1985, p.33-34)
+> “During impulsive behavior, be it eating or a different form of consumption, an individual chooses, on the basis of his set, the agents of activity. He chooses food on the table that looks the most attractive to him. If this procedure happens on an official feast, he impulsively, through set, follows all the rules and etiquette which is socially reinforced and which he has developed from experience. For an individual who is well versed in this domain, reflecting necessary objects, giving direction to physical forces towards them and obeying the etiquette of the feast does not require special attention and volition”. (Nadirashvili, 1985, p.33-34)
 
 If we were to display the first level of activity on a chart, it would look like this:
 
@@ -256,7 +256,7 @@ On the second level of activity an individual deals with problems that cannot be
 
 Impulsive behavior, as we know, required several factors and when one of them falls out of place – for example, when the situation no longer can gratify the need – the impulsive behavior comes to a halt.
 
-“Turns out, that a human can stop his impulsive activity by taking out one of its factors from the context of behavior. He does so by directing attention to, and therefore through objectification of, one of the factors of behavior... Once he starts contemplating about the functionality of his behavior’s components, his impulsive behavior is stopped.” (Nadirashvili, 1985, p.75)
+> “Turns out, that a human can stop his impulsive activity by taking out one of its factors from the context of behavior. He does so by directing attention to, and therefore through objectification of, one of the factors of behavior... Once he starts contemplating about the functionality of his behavior’s components, his impulsive behavior is stopped.” (Nadirashvili, 1985, p.75)
 
 The definition of objectification we see above is not exhaustive. During impulsive behavior there is no subjectivity in the individual to speak of, in a sense that the behavior is conducted unconsciously while the individual is a mere part of the activity: the subject is lost in the behavior. He does not get to (consciously) choose his actions. Through objectification the factor of behavior causing the impediment is differentiated as an _object_ to which a now consciously thinking individual is related as a _subject_, thus forming a subject-to-object relationship. In other words, the individual starts abstract reasoning about what went wrong. While physically during this moment we can only observe that impulsive behavior stops, psychologically an activity is initiated on a completely different plain. Through objectification an individual can differentiate himself from the environment and relate himself to it as a subject to an object.
 
