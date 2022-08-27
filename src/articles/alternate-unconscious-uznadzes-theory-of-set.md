@@ -86,9 +86,7 @@ Later a notion of disappointed expectation was used by Martin and Muller (Martin
 
 If conscious expectation indeed played a role, then being aware of the effects of the illusion should disperse the effect. Strangely enough, experiments proved that removing the expectation factor, on the contrary, strengthened the illusionary effect (Nadirashvili, 1983).
 
-Uznadze (2008) conducted an experiment using hypnotic sleep. After inducing a hypnotic sleep in the subjects, they were asked to hold pairs of different-sized spheres. This is the stage, which Uznadze called “the set experiment”, where he would “fixate the set” in the subjects, which would cause the biased perception, i.e illusion. The subjects then were told to forget everything before waking up from sleep. The illusion somehow still persisted and subjects, in the waking state, perceived spheres of identical
-
-size to be different (Nadirashvili, 1983).
+Uznadze (2008) conducted an experiment using hypnotic sleep. After inducing a hypnotic sleep in the subjects, they were asked to hold pairs of different-sized spheres. This is the stage, which Uznadze called “the set experiment”, where he would “fixate the set” in the subjects, which would cause the biased perception, i.e illusion. The subjects then were told to forget everything before waking up from sleep. The illusion somehow still persisted and subjects, in the waking state, perceived spheres of identical size to be different (Nadirashvili, 1983).
 
 From the aforementioned experiment, it was concluded that by fixating the set in the subjects, a particular inner condition is formed, which is not immediately present in the consciousness, as there is no consciousness in the hypnotic sleep (and therefore, no expectation to be disappointed), yet it persists and influences the conscious actions, such as deciding which sphere is larger. Such definition resonates well with Allport’s definition of attitude:
 
