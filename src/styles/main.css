@@ -325,6 +325,10 @@ footer {
   list-style-position: inside;
 }
 
+.main-article img {
+  max-width: 100%;
+}
+
 .main-article blockquote {
   padding: 0 1rem;
 }
@@ -341,6 +345,17 @@ footer {
   position: relative;
   width: fit-content;
   margin: 0;
+}
+
+#article-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main-article h1 {
+  text-align: left;
+  font-size: 1.6rem;
+  margin: 2rem 0;
 }
 
 .article-author {
