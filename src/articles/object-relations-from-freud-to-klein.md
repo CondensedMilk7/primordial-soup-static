@@ -1,4 +1,11 @@
 ---
+title: "Object Relations: from Freud to Klein"
+description: '"Drives, for Klein, are relationships" (Greenberg & Mitchell,
+  1983) and so, relations as such are at the center of investigation for
+  object-relations theory.'
+author: Pridon Tetradze
+authorPage: https://pridontetradze.com
+date: 2021-06-20
 references:
   - "Freud, S., & Strachey, J. (1962). The ego and the id. New York: Norton."
   - "Greenberg, J. R., & Mitchell, S. A. (1983). Object relations in
@@ -13,15 +20,8 @@ references:
   - Mitchell, S. (1981). The Origin and Nature of the 'Object' in the Theories
     of Klein and Fairbairn. Contemp. Psychoanal., 17:374-398.
     https://doi.org/10.1080/00107530.1981.10745670
-author: Pridon Tetradze
-date: 2021-06-20
 videoUrl: https://www.youtube.com/watch?v=28xw9mfUc9Y
-title: "Object Relations: from Freud to Klein"
-authorPage: https://pridontetradze.com
-description: '"Drives, for Klein, are relationships" (Greenberg & Mitchell,
-  1983) and so, relations as such are at the center of investigation for
-  object-relations theory.'
-tags: featured
+tags: []
 image: https://i.ytimg.com/vi/28xw9mfUc9Y/hq720.jpg
 ---
 
