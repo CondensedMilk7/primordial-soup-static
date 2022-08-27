@@ -46,9 +46,7 @@ references:
   - Uznadze, D., & Haigh, B. (1966). The psychology of set. Consultants Bureau.
 ---
 
-
 # 1 Introduction
-
 
 In 1979 the second international symposium was conducted in Tbilisi, Georgia, where psychologists all around the world gathered to share their findings about one of the most ellusive phenomena known to the field: the unconscious. 150 guests from 17 countries attended (not including hosts from Soviet Union) and considering the fact that the “Iron Curtain” was still holding strong in USSR, these numbers were quite immense (Imedadze, 2022).
 
@@ -97,7 +95,6 @@ From the aforementioned experiment, it was concluded that by fixating the set in
 “a mental and neural state of readiness, organized through experience, exerting a directive and dynamic influence upon the individual’s response to all objects and situations with which it is related.” (Allport, 1935, p.810)
 
 Here, a mental and neural state of readiness, of course, doesn’t necessarily mean a conscious state, nor does it completely dismiss the influence of the conscious processes. At the same time, it is a state of readiness for any context, not constrained in social domain as one would expect from the term “attitude”.
-
 
 # 4 Set Between Big and Small Theories
 
@@ -237,11 +234,9 @@ On the first level, we encounter an _impulsive_ behavior. The behavior is, in th
 
 “During impulsive behavior, be it eating or a different form of consumption, an individual chooses, on the basis of his set, the agents of activity. He chooses food on the table that looks the most attractive to him. If this procedure happens on an official feast, he impulsively, through set, follows all the rules and etiquette which is socially reinforced and which he has developed from experience. For an individual who is well versed in this domain, reflecting necessary objects, giving direction to physical forces towards them and obeying the etiquette of the feast does not require special attention and volition”. (Nadirashvili, 1985, p.33-34)
 
-If we were to display the first level of activity on a chart, it would look like
+If we were to display the first level of activity on a chart, it would look like this:
 
-this:
-
-![](Aspose.Words.c6c2d793-adec-4eb4-bbb8-e24611d014e6.001.png)
+![](https://i.imgur.com/p5rBzfx.png)
 
 Structure of the first level of psychic activity (translated from Nadirashvili, 1985, p.35).
 
@@ -294,5 +289,3 @@ Uznadze’s school of set psychology became the most prominent field in USSR tha
 The unique and generalized approach of set psychology allows it to be applied to many fields, such as social psychology (Nadirashvili, 1983, 1985), criminal psychology (Nadareishvili & Chkheidze, 2013), abnormal psychology (Uznadze, 1977; Uznadze & Haigh, 1966) and more.
 
 Uznadze was ambitious enough to claim that Freud’s understanding of the unconscious is flawed and the Freudian term unconscious should be replaced by the set (Uznadze & Haigh, 1966, p.213-214). His claims are not to be dismissed so easily as while psychoanalysis could vouch for its validity through success in treatment, the set psychology was able to experimentally study the unconscious and as a result founded the alternate theory of the unconscious which, to this day, lacks the attention it deserves beyond the borders of Georgia.
-
-
