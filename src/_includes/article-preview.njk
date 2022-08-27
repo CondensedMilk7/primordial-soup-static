@@ -1,16 +1,18 @@
 <article class="article-preview">
     <img src="{{ article.data.image }}" alt="article thumbnail">
-    <div class="article-content">
-        <h1>{{ article.data.title }}</h1>
-        <p class="article-content__author">by
-            <a class="author-link" href="{{ article.data.authorPage }}" target="_blank">{{ article.data.author }}</a>
-            on
-            <span>{{ article.data.date | postDate }}</span>
-        </p>
-        <p class="article-description">{{ article.data.description }}</p>
-        <div class="article-preview__actions">
-            <a href="{{ article.url }}" class="button">READ</a>
-            <a href="{{ article.data.videoUrl }}" class="button" target="_blank">WATCH</a>
+        <div class="article-content">
+            <h1>{{ article.data.title }}</h1>
+            <p class="article-content__author">by
+                <a class="author-link" href="{{ article.data.authorPage }}" target="_blank">{{ article.data.author }}</a>
+                on
+                <span>{{ article.data.date | postDate }}</span>
+            </p>
+            <p class="article-description">{{ article.data.description }}</p>
+            <div class="article-preview__actions">
+                <a href="{{ article.url }}" class="button">READ</a>
+                {% if article.data.videoUrl %}
+                    <a href="{{ article.data.videoUrl }}" class="button" target="_blank">WATCH</a>
+                {% endif %}
+            </div>
         </div>
-    </div>
-</article>
+    </article>
