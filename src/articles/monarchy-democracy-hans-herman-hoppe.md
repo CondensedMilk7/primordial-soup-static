@@ -14,8 +14,7 @@ references:
   - Burnham J. (2019). The machiavellians defenders of freedom. Henry Regnery.
   - "Hoppe, H. (2014). From Aristocracy to Monarchy to Democracy: A Tale of
     Moral and Economic Folly and Decay. Ludwig von Mises Institute"
-  - "Slomp, Gabriella. (2005). The theory of the Partisan: Carl Schmitt's
-    neglected legacy. History of Political Thought. 26. 502-519."
+  - Schmitt, Carl. (2020). The theory of the Partisan. Antelope Hill Publishing.
   - Tocqueville, Alexis de, 1805-1859. (2008). The Old Regime and the
     Revolution. Penguin Classics,
 ---
