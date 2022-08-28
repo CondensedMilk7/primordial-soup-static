@@ -1,16 +1,23 @@
 ---
 title: Natural Rights and Positivism - Leo Strauss
-author: "Gabriel J. Zautashvili"
-videoUrl: "https://www.youtube.com/watch?v=6nvdgXXMu1Q"
+description: '"if any principle is sufficiently justified by the fact that it is
+  accepted by society, the principles of cannibalism are as defensible or sound
+  as those of civilized life."'
+author: Gabriel J. Zautashvili
+authorPage: https://www.facebook.com/gabriel.zautashvili
 date: 2022-05-12
-image: "https://i.ytimg.com/vi/6nvdgXXMu1Q/hq720.jpg"
-description: '"if any principle is sufficiently justified by the fact that it is accepted by society, the principles of cannibalism are as defensible or sound as those of civilized life."'
-tags: featured
 references:
-  - "Strauss, L. (1953). Natural right and history. Chicago: University of Chicago Press."
-  - "Strauss, L. (1989). Relativism, The Rebirth of Classical Political Rationalism. Chicago University Press: Chicago."
-  - "Strauss, L. (1988). What is Political Philosophy. Chicago University Press: Chicago."
-  - "Berlin, I. (1958). Two Concepts of Liberty. Oxford University Press: Oxford."
+  - "Strauss, L. (1953). Natural right and history. Chicago: University of
+    Chicago Press."
+  - "Strauss, L. (1989). Relativism, The Rebirth of Classical Political
+    Rationalism. Chicago University Press: Chicago."
+  - "Strauss, L. (1988). What is Political Philosophy. Chicago University Press:
+    Chicago."
+  - "Berlin, I. (1958). Two Concepts of Liberty. Oxford University Press:
+    Oxford."
+videoUrl: https://www.youtube.com/watch?v=6nvdgXXMu1Q
+tags: []
+image: https://i.ytimg.com/vi/6nvdgXXMu1Q/hq720.jpg
 ---
 
 In the last video, I discussed the relationship between historicism and
