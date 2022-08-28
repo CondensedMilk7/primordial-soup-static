@@ -1,9 +1,8 @@
 ---
 title: "Alternate Unconscious: Uznadze’s Theory of Set"
-description: In the following work I brefly explore the general psychology of
-  set – a field founded by Georgian psychologist Dimitri Uznadze who rigorously,
-  through experimental methods offered an alternate understanding of the
-  unconscious, in contrast to fields such as psychoanalysis.
+description: Psychology of set – a field founded by Georgian psychologist
+  Dimitri Uznadze who offered an alternate understanding of the unconscious, in
+  contrast to fields such as psychoanalysis.
 author: Pridon Tetradze
 authorPage: https://pridontetradze.com
 date: 2022-08-27T16:53:03.214Z
