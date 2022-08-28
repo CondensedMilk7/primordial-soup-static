@@ -166,9 +166,7 @@ Given all three factors discussed above, a set is formed that gives rise to a pu
 
 ## 6.1 Fixed Set
 
-In chapter 3 we mentioned Uznadze’s studies, where he would _fixate_ the set in test subjects in the “experimental” phase. This was the exposure of pressure on a hand or giving subjects spherical objects on serveral occasions. This was followed by a “critical” phase, where the effects of the newly fixated set were observed. It would therefore seem that the repetitive exposure to stimuli plays a significant role in forming the set. In fact, just one or two
-
-exposures are often not enough for participants to make them perceive final equal pairs of stimuli to be different (Uznadze, 2008).
+In chapter 3 we mentioned Uznadze’s studies, where he would _fixate_ the set in test subjects in the “experimental” phase. This was the exposure of pressure on a hand or giving subjects spherical objects on serveral occasions. This was followed by a “critical” phase, where the effects of the newly fixated set were observed. It would therefore seem that the repetitive exposure to stimuli plays a significant role in forming the set. In fact, just one or two exposures are often not enough for participants to make them perceive final equal pairs of stimuli to be different (Uznadze, 2008).
 
 When we encounter familiar situations, our readiness to act is well-formed. That is to say, we make quick decisions, our behavior is distinct and efficient as we know (consciously or unconsciously) what to do and how to do it. That is because we have been in similar situations many times and more often we find ourselves in them, the easier it becomes for us to actualize our readiness to act, which provides us with more concise “schemas” of behavior.
 
@@ -260,7 +258,7 @@ The definition of objectification we see above is not exhaustive. During impulsi
 
 Objectification as an ability is developed in humans through social interactions and it is unique to humans insofar as they are capable of communication within a complex system that is language. Thus socialization develops the ability of objectification, “...when during collective work it would become necessary to point to the object towards which the common behavior of the group was directed” (Nadirashvili, 1985, p.76).
 
-It is worth noting that although in this discussion we focus on objectification of an object (in the environment), other types of objectifications have also been distinguished, namely objectification of social influence and selfobjectification (Nadirashvili, 1985) – all of which are beyond the scope of this article.
+It is worth noting that although in this discussion we focus on objectification of an object (in the environment), other types of objectifications have also been distinguished, namely objectification of social influence and self-objectification (Nadirashvili, 1985) – all of which are beyond the scope of this article.
 
 Despite the activities being on two different levels, the feeling of the external reality on the second level maintains the equivalency of the first level. The objects in reality are experienced to be the same on both levels, with the benefit of higher level comprehension through consciousness on the second level. This allows the individual to employ higher levels of cognitive functions to inspect the reason why the impulsive behavior was impeded and to find the solution. This also allows the individual to contemplate, in his psychic reality, all of its possibilities and potentialities. On this level, the behavior can incorporate physical, ideal, and social acts, therefore the behavior can become not only purposive, but deliberate and creative. This is the key difference in terms of behavior between two levels of activities: On the first level, the behavior is _purposive_, and on the second level, it is _deliberate_.
 
