@@ -11,12 +11,12 @@ tags:
   - featured
 image: https://i.imgur.com/98FxH5x.jpg
 references:
-  - Burnham J. (2019). The machiavellians defenders of freedom. Henry Regnery.
+  - Burnham J. (2019). The Machiavellians Defenders of Freedom. Henry Regnery.
   - "Hoppe, H. (2014). From Aristocracy to Monarchy to Democracy: A Tale of
-    Moral and Economic Folly and Decay. Ludwig von Mises Institute"
-  - Schmitt, Carl. (2020). The theory of the Partisan. Antelope Hill Publishing.
-  - Tocqueville, Alexis de, 1805-1859. (2008). The Old Regime and the
-    Revolution. Penguin Classics,
+    Moral and Economic Folly and Decay. Ludwig von Mises Institute."
+  - Schmitt, Carl. (2020). The theory of the Partisan. Antelope Hill.
+  - Tocqueville, Alexis de. (2008). The Old Regime and the Revolution. Penguin
+    Classics.
 ---
 Today, most of us have gotten used to considering Democracy as the best
 possible regime without ever questioning the validity of such a claim.
