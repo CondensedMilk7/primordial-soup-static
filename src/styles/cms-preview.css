@@ -1,0 +1,25 @@
+/* These are styles for admin panel of Netlify CMS */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+:root {
+  --bg: #3c2335;
+  --bg-alt: #e9cddf;
+  --bg-light: #f2e3ef;
+  --fg: #fbf7fa;
+  --black: #000000;
+  --text: #181216;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg-light);
+}
