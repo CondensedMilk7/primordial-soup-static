@@ -100,9 +100,7 @@ It is important to see how Uznadze’s experiments tackle the issue. The notion 
 
 > “When outlining the basis of the theory, Uznadze discussed set not as one of many psychological emergances, which should shed light on some psychological phenomena, but as the basis of human activity, which serves as a mediator between the human and the environment, moderating their interaction, determining human behavior, allowing it to be conducted purposively.” (Nadirashvili, 1983, p.41)
 
-Theory of set, in this regard, falls in the same category as, for example, psychoanalysis, gestalt psychology, field theory, etc. Although no theory, big or small, is safe from inconsistencies and contradictions, the unified
-
-approach dominant in big theories provides a very helpful foundation that is less cluttered with implicit preconceptions and presuppositions yet to be put under question. This foundation ensures that less epistemological harm is done. Wurtzburg’s school is a clear example of such harm.
+Theory of set, in this regard, falls in the same category as, for example, psychoanalysis, gestalt psychology, field theory, etc. Although no theory, big or small, is safe from inconsistencies and contradictions, the unified approach dominant in big theories provides a very helpful foundation that is less cluttered with implicit preconceptions and presuppositions yet to be put under question. This foundation ensures that less epistemological harm is done. Wurtzburg’s school is a clear example of such harm.
 
 In Wurtzburg’s school of psychology, experimental studies of attitude took a rather subjectivistic and psychologistic turn (Nadirashvili, 1983). That is to say, the accent was made not on the fact of physical, motor functions but on the conscious organization of the subject. In every experiment conducted in the context of perception, memory, reasoning, volition, etc. a great deal of attention was given to subjects’ inner state of readiness, as they assess the problem they have to solve.
 
@@ -138,9 +136,7 @@ In theory of set, the origin of need is within the individual. Uznadze (2008) is
 
 There are two basic types of need – _substantial_ and _functional_ (Uznadze, 2008). The former implies a need that can be gratified by a substance. For example, hunger can be sated by food, therefore a need for food is a substantial need. The functional need implies an organism’s yearning for activity in itself. A child’s need to play games or a musician’s need to play an instrument is often solely driven by the desire of engaging in those very activities for their own sake.
 
-Uznadze (2008) claims that there are more beyond the basic types of needs, such as a “purely human” _theoretical_ need. It arises when the di-
-
-rect act of gratification is impeded and the task at hand becomes the object of observation. In this sense, Uznadze discusses theoretical need as the development or complication of substantial need. Nadirashvili (1983) further notes that people develop certain needs based on social and cultural values. All these “higher” processes are mediated by _objectification_ which I will explain in later chapters.
+Uznadze (2008) claims that there are more beyond the basic types of needs, such as a “purely human” _theoretical_ need. It arises when the direct act of gratification is impeded and the task at hand becomes the object of observation. In this sense, Uznadze discusses theoretical need as the development or complication of substantial need. Nadirashvili (1983) further notes that people develop certain needs based on social and cultural values. All these “higher” processes are mediated by _objectification_ which I will explain in later chapters.
 
 ## 5.2 Objective Factor: Situation
 
