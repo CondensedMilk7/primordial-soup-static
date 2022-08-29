@@ -25,6 +25,18 @@ layout: "base.njk"
             <p class="reference">
                 {{ reference | safe }}
             </p>
-        {%- endfor -%}
-    </section>
-</article>
+            <div class="reference-links">
+                <a class="reference-link" href="{{ reference | libgen }}">
+                    <img src="/assets/icons/libgen.png" alt="libgen icon">
+                        <span>libgen</span>
+                    </a>
+                    {% if reference | scihub %}
+                        <a class="reference-link" href="{{ reference | scihub }}">
+                            <img src="/assets/icons/sci-hub.png" alt="sci-hub icon">
+                                <span>sci-hub</span>
+                            </a>
+                        {% endif %}
+                    </div>
+                {%- endfor -%}
+            </section>
+        </article>

@@ -378,6 +378,21 @@ p.reference {
   padding-left: 3rem;
   text-indent: -3rem;
   text-align: left;
+  margin: 1rem 0 0.2rem 0;
+}
+
+.reference-links {
+  display: flex;
+}
+
+.reference-link {
+  margin: 0 0.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.reference-link img {
+  width: 2rem;
 }
 
 .about-container {
