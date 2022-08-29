@@ -11,7 +11,7 @@ tags:
   - featured
 image: https://i.imgur.com/98FxH5x.jpg
 references:
-  - Burnham J. (2019). The Machiavellians Defenders of Freedom. Henry Regnery.
+  - Burnham, J. (2019). The Machiavellians Defenders of Freedom. Henry Regnery.
   - "Hoppe, H. (2014). From Aristocracy to Monarchy to Democracy: A Tale of
     Moral and Economic Folly and Decay. Ludwig von Mises Institute."
   - Schmitt, Carl. (2020). The theory of the Partisan. Antelope Hill.
