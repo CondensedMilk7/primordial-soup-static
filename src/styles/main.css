@@ -395,6 +395,11 @@ p.reference {
   width: 2rem;
 }
 
+.license {
+  text-align: center;
+  margin-top: 3rem;
+}
+
 .about-container {
   background: var(--bg-light);
 }
