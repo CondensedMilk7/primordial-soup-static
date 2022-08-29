@@ -140,7 +140,7 @@ Uznadze (2008) claims that there are more beyond the basic types of needs, such 
 
 ## 5.2 Objective Factor: Situation
 
-When we talk about _situation_ in set psychology, we have in mind the relevant part of the environment that makes gratification of the need possible. A need on its own can not be satisfied without the object given in the environment but the need becomes individually “defined” when it can be gratified through a certain situation.
+When we talk about _situation_ in set psychology, we have in mind the relevant part of the environment that makes gratification of the need possible. A need on its own can not be satisfied without the object given in the environment and the need becomes individually “defined” when it can be gratified through a certain situation.
 
 > “When there are no respective situations for individual’s needs, the tendencies towards activities that are contained in those needs remain in a passive, inactive state.”(Nadirashvili, 1983, p.210)
 
