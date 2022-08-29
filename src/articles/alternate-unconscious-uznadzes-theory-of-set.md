@@ -21,7 +21,7 @@ references:
     3–30. https://doi.org/10.2753/RPO1061-0405470301
   - Imedadze, I. (2019). Tbilisi 1979 year symposium on the unconscious –
     looking back. Problems of Psychology in the 21st Century, 13, Continuous.
-    https://doi.org/https://doi.org/10.33225/ppc/19.13.4
+    https://doi.org/10.33225/ppc/19.13.4
   - Imedadze, I. (2022). Tbilisi symposium on the unconscious - a short
     retrospective. GEORGIAN PSYCHOLOGICAL JOURNAL, (1).
     https://doi.org/10.52340/gpj.2022.07.13
