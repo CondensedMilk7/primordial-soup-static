@@ -23,3 +23,33 @@ body {
   color: var(--text);
   background-color: var(--bg-light);
 }
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.5rem 0;
+}
+
+p {
+  text-align: justify;
+  margin: 1rem 0;
+  line-height: 1.6rem;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
+li {
+  list-style-position: inside;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  padding: 0 1rem;
+}
