@@ -374,6 +374,14 @@ footer {
   background: rgb(39, 38, 38);
 }
 
+.references {
+  font-size: 1rem;
+}
+
+.references h2 {
+  font-size: 1.8rem;
+}
+
 p.reference {
   padding-left: 3rem;
   text-indent: -3rem;
@@ -398,6 +406,10 @@ p.reference {
 .license {
   text-align: center;
   margin-top: 3rem;
+}
+
+.license img {
+  margin-bottom: 1rem;
 }
 
 .about-container {
