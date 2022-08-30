@@ -1,15 +1,19 @@
 ---
-title: "Outline of Aristotle's Political Philosophy"
-description: "“One who has no need because he is sufficient for himself is no part of a state, and so must either be a beast or a god.”"
-image: "https://i.ytimg.com/vi/y000J6Oche0/hq720.jpg"
-author: "Gabriel J. Zautashvili"
+title: Outline of Aristotle's Political Philosophy
+description: “One who has no need because he is sufficient for himself is no
+  part of a state, and so must either be a beast or a god.”
+author: Gabriel J. Zautashvili
 authorPage: https://www.facebook.com/gabriel.zautashvili
-tags: featured
-videoUrl: "https://www.youtube.com/watch?v=y000J6Oche0"
+date: 2022-08-30T16:37:15.682Z
 references:
-  - "Aristotle A. & Everson S. (1996). The politics. Cambridge University Press."
-  - "Aristotle A. & Lord C. (2013). Aristotle's politics (Second). University of Chicago Press."
-  - "Strauss, L. (1965). Natural right and history. Chicago: University of Chicago Press."
+  - Aristotle A. & Everson S. (1996). The politics. Cambridge University Press.
+  - Aristotle A. & Lord C. (2013). Aristotle's politics (Second). University of
+    Chicago Press.
+  - "Strauss, L. (1965). Natural right and history. Chicago: University of
+    Chicago Press."
+videoUrl: https://www.youtube.com/watch?v=y000J6Oche0
+tags: featured
+image: https://i.ytimg.com/vi/y000J6Oche0/hq720.jpg
 ---
 
 ## The End of the State
