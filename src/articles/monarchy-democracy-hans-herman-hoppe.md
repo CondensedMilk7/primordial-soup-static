@@ -6,9 +6,6 @@ description: Today, most of us have gotten used to considering Democracy as the
 author: Gabriel J. Zautashvili
 authorPage: https://www.facebook.com/gabriel.zautashvili
 date: 2022-08-28T10:24:47.058Z
-tags:
-  - article
-  - featured
 image: https://i.imgur.com/98FxH5x.jpg
 references:
   - Burnham, J. (2019). The Machiavellians Defenders of Freedom. Henry Regnery.
@@ -18,6 +15,7 @@ references:
   - Tocqueville, Alexis de. (2008). The Old Regime and the Revolution. Penguin
     Classics.
 ---
+
 Today, most of us have gotten used to considering Democracy as the best
 possible regime without ever questioning the validity of such a claim.
 And this is no surprise. Since after 1970 electoral democracies
