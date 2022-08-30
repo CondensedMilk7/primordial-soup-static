@@ -27,9 +27,9 @@ references:
     https://doi.org/10.52340/gpj.2022.07.13
   - "Lewin, K. (1951). Field theory in social science: Selected theoretical
     papers (edited by dorwin cartwright.)."
-  - Murray, D.J., Ellis, R.R., Bandomir, C.A. et al. Charpentier (1891) on the
-    size—weight illusion. Perception & Psychophysics 61, 1681–1685 (1999).
-    https://doi.org/10.3758/BF03213127
+  - Murray, D. J., Ellis, R. R., Bandomir, C. A., & Ross, H. E. (1991).
+    Charpentier (1891) on size-weight illusion. Perception & Psychophysics, 61
+    (8), 1681–1685. https://doi.org/https://doi.org/10.3758/BF03213127
   - Nadareishvili, V. (2016). განწყობის დიფერენციაციის საკითხები. დ.უზნაძის
     სამეცნიერო შემოქმედება და ფსიქოლოგიის აქტუალური პრობლემები, 177–182.
   - Nadareishvili, V. (2022). Interrelationship between fixed and situational
