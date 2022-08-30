@@ -42,7 +42,7 @@ references:
   - Nadirashvili, S. (1985). განწყობის ფსიქოლოგია (სოციალური განწყობა) (Vol. 2).
     მეცნიერება.
   - Uznadze, D. (2009). The psychology of set. Journal of Russian and East
-    European Psychology, 47, 67–93. https://doi.org/10.2753/RPO10610405470304
+    European Psychology, 47, 67–93. https://doi.org/10.2753/RPO1061-0405470304
   - Uznadze, D. (1977). შრომები (Vol. 7). თბილისი.
   - Uznadze, D. (2008). განწყობის ფსიქოლოგიის ექსპერიმენტული საფუძვლები.
     საქართველოს მაცნე.
