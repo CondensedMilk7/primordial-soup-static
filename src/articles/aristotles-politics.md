@@ -11,7 +11,6 @@ references:
     Chicago Press.
   - "Strauss, L. (1965). Natural right and history. Chicago: University of
     Chicago Press."
-videoUrl: https://www.youtube.com/watch?v=y000J6Oche0
 tags: featured
 image: https://i.ytimg.com/vi/y000J6Oche0/hq720.jpg
 ---
