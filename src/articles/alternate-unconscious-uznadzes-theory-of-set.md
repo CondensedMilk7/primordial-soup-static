@@ -29,7 +29,7 @@ references:
     papers (edited by dorwin cartwright.)."
   - Murray, D. J., Ellis, R. R., Bandomir, C. A., & Ross, H. E. (1991).
     Charpentier (1891) on size-weight illusion. Perception & Psychophysics, 61
-    (8), 1681–1685. https://doi.org/https://doi.org/10.3758/BF03213127
+    (8), 1681–1685. https://doi.org/10.3758/BF03213127
   - Nadareishvili, V. (2016). განწყობის დიფერენციაციის საკითხები. დ.უზნაძის
     სამეცნიერო შემოქმედება და ფსიქოლოგიის აქტუალური პრობლემები, 177–182.
   - Nadareishvili, V. (2022). Interrelationship between fixed and situational
