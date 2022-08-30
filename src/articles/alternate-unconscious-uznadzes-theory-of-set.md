@@ -77,7 +77,7 @@ The issue of terminology, such as using different terms to describe the same phe
 
 # 3 Defining Set Through Charpentier’s Illusion
 
-In 1948, Uznadze showed the merits of his set theory by explaining the phenomenon called “Charpentier’s illusion” (for example, see Murray, 1991), while also critically reviewing the existing theories surrounding the subject. Discussing where existing theories fell short and where Uznadze’s theory filled in the gaps, will help us formulate the most basic definition of set.
+In 1948, Uznadze showed the merits of his set theory by explaining the phenomenon called “Charpentier’s illusion” (for example, see Murray et al., 1991), while also critically reviewing the existing theories surrounding the subject. Discussing where existing theories fell short and where Uznadze’s theory filled in the gaps, will help us formulate the most basic definition of set.
 
 Charpentier’s illusion is described as follows: The objects of identical weight, but different sizes are perceived to have different weights. Muller and Schumann (1889, as cited in Nadirashvili, 1983) tried to explain the illusion with the concept of “motor set” When a person intends to lift objects of different sizes, upon perceiving and visually assessing the objects, he automatically uses different impulses for each of them. For larger objects, a stronger impulse is mobilized, and for a smaller object – a weaker impulse. Since the objects weigh the same, a larger object lifted up with a stronger impulse leaves a sensation, as if it is “flying up in the air”. Accordingly, a smaller object of the same weight feels to be “sticking to the bottom”. Therefore the object that seems to be “flying up” feels lighter, while the object “sticking to the bottom” feels heavier.
 
