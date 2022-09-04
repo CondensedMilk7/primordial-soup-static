@@ -1,7 +1,7 @@
-const { DateTime } = require("luxon");
-const { libgen, scihub, scholar } = require("./lib/resource-link");
+import { DateTime } from "luxon";
+import { libgen, scihub, scholar } from "./lib/resource-link";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/scripts");
@@ -23,4 +23,4 @@ module.exports = function (eleventyConfig) {
       output: "public",
     },
   };
-};
+}
