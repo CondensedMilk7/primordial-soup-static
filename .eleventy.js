@@ -1,7 +1,7 @@
-import { DateTime } from "luxon";
-import { libgen, scihub, scholar } from "./lib/resource-link";
+const { DateTime } = require("luxon");
+const { ResourceLink } = require("./lib/resource-link");
 
-export default function (eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/scripts");
@@ -11,9 +11,15 @@ export default function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
-  eleventyConfig.addFilter("libgen", (reference) => libgen(reference));
-  eleventyConfig.addFilter("scihub", (reference) => scihub(reference));
-  eleventyConfig.addFilter("scholar", (reference) => scholar(reference));
+  eleventyConfig.addFilter("libgen", (reference) =>
+    ResourceLink.libgen(reference)
+  );
+  eleventyConfig.addFilter("scihub", (reference) =>
+    ResourceLink.scihub(reference)
+  );
+  eleventyConfig.addFilter("scholar", (reference) =>
+    ResourceLink.scholar(reference)
+  );
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
@@ -23,4 +29,4 @@ export default function (eleventyConfig) {
       output: "public",
     },
   };
-}
+};

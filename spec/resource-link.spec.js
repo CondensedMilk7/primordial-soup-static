@@ -1,4 +1,4 @@
-import { ResourceLink } from "../lib/resource-link.js";
+const { ResourceLink } = require("../lib/resource-link");
 
 describe("Resource Link", () => {
   const reference =
@@ -15,5 +15,10 @@ describe("Resource Link", () => {
   it("Should get the title", () => {
     const title = ResourceLink.getTitle(reference);
     expect(title).toBe("charpentier (1891) on size-weight illusion");
+  });
+
+  it("Should get DOI", () => {
+    const doi = ResourceLink.getDOI(reference);
+    expect(doi).toEqual("https://doi.org/10.3758/BF03213127");
   });
 });
