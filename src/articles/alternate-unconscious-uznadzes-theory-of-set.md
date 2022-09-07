@@ -9,7 +9,8 @@ date: 2022-08-27T16:53:03.214Z
 tags:
   - article
   - featured
-image: https://i.imgur.com/72yeOAE.png
+videoUrl: https://www.youtube.com/watch?v=cBYW_KiY19A
+image: https://i.ytimg.com/vi/cBYW_KiY19A/hq720.jpg
 references:
   - Allport, G. W. (1935). Attitudes. In A handbook of social psychology (pp.
     798–844). Clark University Press.
