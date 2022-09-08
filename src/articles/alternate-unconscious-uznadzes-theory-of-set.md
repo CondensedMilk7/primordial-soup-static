@@ -50,6 +50,11 @@ references:
   - Uznadze, D., & Haigh, B. (1966). The psychology of set. Consultants Bureau.
 ---
 
+# Abstract
+
+In the following work I briefly explore the general psychology of set – a field founded by Georgian psychologist Dimitri Uznadze
+who rigorously, through experimental methods offered an alternate understanding of the unconscious, in contrast to fields such as psychoanalysis. The set is understood as a general state of readiness that constitutes purposive behavior. The issue of terminology is explored, as well as the usage of terms such as “set” and “attitue” in fragmentary studies that explored the same phenomenon, but lacked the unified approach, which is one of the merits of set psychology, explaining human functioning as a whole. This merit becomes evident by exploring Charpentier’s Illusion. The factors of set formation are discussed that serve the foundation of purposive behavior. Two types of sets are distinguished in terms of their differentiated and fixed nature. Their nature is further elaborated upon discussing their interrelationship. This is followed by exploring the notion of two levels of psychic activity which is based on Uznadze’s understanding of the term “objectification” and which is integral to understanding the psychology of set as a field of general psychology.
+
 # 1 Introduction
 
 In 1979 the second international symposium was conducted in Tbilisi, Georgia, where psychologists all around the world gathered to share their findings about one of the most ellusive phenomena known to the field: the unconscious. 150 guests from 17 countries attended (not including hosts from Soviet Union) and considering the fact that the “Iron Curtain” was still holding strong in USSR, these numbers were quite immense (Imedadze, 2022).
@@ -269,7 +274,7 @@ Of course, the imagined factor does not have to be just the objective one. For e
 
 As a side note, the formation of situational set can be now described precisely. Since the situational set forms in a new, unfamiliar situation, the impulsive behavior is impeded, since the factors of set are not differenciated. This means that an individual must use volition and imagination to differenciate those factors and through deliberate behavior find means to “make himself at home”, in other words to return to purposive behavior in a (now) familiar situation.
 
-In conclusion, what differentiates the two levels of activities is the behavior and set which constitutes it. The behavior on the first level is largely driven by the set that has its factors fully and objectively present, therefore it is impulsive. The behavior at this level is also purposive, as it ends with the gratification of need. The second level of activity becomes necessary when the impulsive behavior is impeded. The objectification allows an individual to “take a step back” and once again, albeit thoroughly, observe the cause of the impediment. Through more involved conscous processes it becomes possible to create a new set, this time with imagined factors that allows the individual to conduct deliberate behavior which serves the purpose of returning to an impulsive and purposive behavior.
+In conclusion, what differentiates the two levels of activities is the behavior and set which constitutes it. The behavior on the first level is largely driven by the set that has its factors fully and objectively present, therefore it is impulsive. The behavior at this level is also purposive, as it ends with the gratification of need. The second level of activity becomes necessary when the impulsive behavior is impeded. The objectification allows an individual to “take a step back” and once again, albeit thoroughly, observe the cause of the impediment. Through more involved conscious processes it becomes possible to create a new set, this time with imagined factors that allows the individual to conduct deliberate behavior which serves the purpose of returning to an impulsive and purposive behavior.
 
 # 8 The Reach of Set Psychology
 
