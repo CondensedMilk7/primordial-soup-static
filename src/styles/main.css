@@ -107,6 +107,7 @@ a {
   background: url(../assets/images/wallpaper-soup.jpg);
   background-position: center;
   background-size: cover;
+  background-color: var(--bg);
   width: 100%;
   height: 26rem;
   display: flex;
