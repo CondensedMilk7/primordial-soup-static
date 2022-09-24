@@ -280,7 +280,7 @@ footer {
   top: 0;
   left: 0;
   background: url(/assets/images/wallpaper-soup.jpg);
-  background-color: black;
+  background-color: var(--bg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
