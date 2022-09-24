@@ -1,7 +1,7 @@
 class ResourceLink {
   static libgen(reference) {
     const title = this.getTitle(reference);
-    const urlfiedTitle = title.replaceAll(" ", "+");
+    const urlfiedTitle = title.replace(/ /g, "+");
     const firstAuthor = this.getFirstAuthor(reference);
 
     // If it's from an article
@@ -28,8 +28,8 @@ class ResourceLink {
   static scholar(reference) {
     const title = this.getTitle(reference);
     const allAuthors = this.getAllAuthors(reference);
-    const authorsUrlfied = allAuthors.replaceAll(" ", "+").replaceAll("&", "");
-    const urlfiedTitle = title.replaceAll(" ", "+");
+    const authorsUrlfied = allAuthors.replace(/ /g, "+").replace(/&/g, "");
+    const urlfiedTitle = title.replace(/ /g, "+");
 
     return `https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=${urlfiedTitle}+${authorsUrlfied}`;
   }

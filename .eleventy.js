@@ -1,5 +1,5 @@
 const { DateTime } = require("luxon");
-const { ResourceLink } = require("./lib/resource-link");
+const { ResourceLink } = require("./src/lib/resource-link");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
