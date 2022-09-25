@@ -1,12 +1,16 @@
 ---
 layout: "base.njk"
 title: Articles
+pagination:
+    data: collections.article
+    size: 4
+    alias: articles
 ---
 
 <div class="articles-container">
     <div class="articles-background"></div>
     <div class="articles">
-        {%- for article in collections.article | reverse -%}
+        {%- for article in collections.article | byNewest -%}
             {% include 'article-preview.njk' %}
         {%- endfor -%}
     </div>
