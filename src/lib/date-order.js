@@ -1,13 +1,9 @@
 class DateOrder {
   static byNewest(articles) {
     const ordered = [...articles];
-    ordered.sort((a, b) => {
-      const dateA = new Date(a.data.date);
-      const dateB = new Date(b.data.date);
-      return dateA < dateB;
+    return ordered.sort((a, b) => {
+      return b.data.date.getTime() - a.data.date.getTime();
     });
-    console.log(dateA);
-    return ordered;
   }
 }
 

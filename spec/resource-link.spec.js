@@ -1,4 +1,4 @@
-const { ResourceLink } = require("../lib/resource-link");
+const { ResourceLink } = require("../src/lib/resource-link");
 
 describe("Resource Link", () => {
   const reference =
