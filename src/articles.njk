@@ -10,8 +10,14 @@ pagination:
 <div class="articles-container">
     <div class="articles-background"></div>
     <div class="articles">
-        {%- for article in collections.article | byNewest -%}
+        {%- for article in articles | byNewest -%}
             {% include 'article-preview.njk' %}
         {%- endfor -%}
     </div>
 </div>
+{% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}">Previous Page</a>
+{% endif %}
+{% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}">Next Page</a>
+{% endif %}
