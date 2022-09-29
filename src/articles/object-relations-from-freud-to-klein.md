@@ -5,7 +5,10 @@ description: '"Drives, for Klein, are relationships" (Greenberg & Mitchell,
   object-relations theory.'
 author: Pridon Tetradze
 authorPage: https://pridontetradze.com
-date: 2021-06-20
+date: 2021-11-04T20:00:00.000Z
+tags: []
+videoUrl: https://www.youtube.com/watch?v=28xw9mfUc9Y
+image: https://i.ytimg.com/vi/28xw9mfUc9Y/hq720.jpg
 references:
   - "Freud, S., & Strachey, J. (1962). The ego and the id. New York: Norton."
   - "Greenberg, J. R., & Mitchell, S. A. (1983). Object relations in
@@ -20,9 +23,6 @@ references:
   - Mitchell, S. (1981). The Origin and Nature of the 'Object' in the Theories
     of Klein and Fairbairn. Contemp. Psychoanal., 17:374-398.
     https://doi.org/10.1080/00107530.1981.10745670
-videoUrl: https://www.youtube.com/watch?v=28xw9mfUc9Y
-tags: []
-image: https://i.ytimg.com/vi/28xw9mfUc9Y/hq720.jpg
 ---
 
 ## Object of Sigmund Freud
