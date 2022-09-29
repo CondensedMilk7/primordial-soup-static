@@ -461,6 +461,40 @@ p.reference {
   align-items: center;
 }
 
+.paginator {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.paginator ol {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.paginator a {
+  text-decoration: none;
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 100ms linear;
+}
+
+.paginator a:hover {
+  color: var(--bg);
+  background-color: var(--fg);
+}
+
+.paginator .page-active {
+  pointer-events: none;
+  background-color: var(--fg);
+  color: var(--bg);
+}
+
 .not-found-container {
   min-height: 100vh;
   text-align: center;
