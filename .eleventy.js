@@ -8,6 +8,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/scripts");
   eleventyConfig.addPassthroughCopy("./src/admin");
 
+  eleventyConfig.addCollection("articlesByNewest", (collectionApi) => {
+    const articles = collectionApi.getFilteredByTag("article");
+    return DateOrder.byNewest(articles);
+  });
+
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });

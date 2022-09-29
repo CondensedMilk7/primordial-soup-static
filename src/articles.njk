@@ -2,7 +2,7 @@
 layout: "base.njk"
 title: Articles
 pagination:
-    data: collections.article
+    data: collections.articlesByNewest
     size: 4
     alias: articles
 ---
@@ -10,14 +10,31 @@ pagination:
 <div class="articles-container">
     <div class="articles-background"></div>
     <div class="articles">
-        {%- for article in articles | byNewest -%}
+        {%- for article in articles -%}
             {% include 'article-preview.njk' %}
         {%- endfor -%}
+        {# Temporary paginator #}
+        <nav aria-labelledby="pages" class="paginator">
+            <ol>
+                {# Previous page #}
+                <li>
+                    {% if pagination.href.previous %}
+                        <a title="Previous page" href="{{ pagination.href.previous }}">&#60;</a>
+                        {% else %}&#60;{% endif %}
+                </li>
+                {# Pages as numbers #}
+                {%- for pageEntry in pagination.pages %}
+                    <li>
+                        <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" class="page-active" {% endif %}>{{ loop.index }}</a>
+                    </li>
+                {%- endfor %}
+                {# Next page #}
+                <li>
+                    {% if pagination.href.next %}
+                        <a title="Next page" href="{{ pagination.href.next }}">&#62;</a>
+                        {% else %}&#62;{% endif %}
+                </li>
+            </ol>
+        </nav>
     </div>
 </div>
-{% if pagination.href.previous %}
-    <a href="{{ pagination.href.previous }}">Previous Page</a>
-{% endif %}
-{% if pagination.href.next %}
-    <a href="{{ pagination.href.next }}">Next Page</a>
-{% endif %}
