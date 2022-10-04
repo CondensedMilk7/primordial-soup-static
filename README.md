@@ -8,6 +8,7 @@ Built with [11ty](https://www.11ty.dev/).
 
 - ~~Generate pirate links from references.~~
 - ~~Add pagination~~
+- Implement html-to-pdf article conversion so that users can download pdfs.
 - Implement R-markdown style articles
   - Use .bib file for centralized references store.
   - Generate references section and pirate links from .bib file in articles.
