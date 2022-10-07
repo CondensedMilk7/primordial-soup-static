@@ -76,7 +76,7 @@ temperate person that, through moral education, keeps his emotions and desires i
 check, in the name of a rational good. Miller (2008) claims that rational behavior
 can only exist in relation to the cultural norms where there exist specific
 definitions of good life and happiness – in other words, ideals in the context of a
-political group. Any behavior that fails to life up to these ideals, therefore, is
+political group. Any behavior that fails to live up to these ideals, therefore, is
 deemed as a "weakness of will", "irrational behavior" etc.
 
 It is based on the aforementioned arguments, among others, that Miller (2008) claims
