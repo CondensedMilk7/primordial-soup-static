@@ -31,7 +31,7 @@ values.
 
 Positive psychology claims that anyone can reach their goals if their attitude is
 positive enough: "Optimism is a tool to help the individual achieve the goals he has
-for himself" (Seligman, 2006, p.291). To this Seligman (2006) adds that the goals
+for himself" (Seligman, 2006, p.291). To this, Seligman (2006) adds that the goals
 must be realistic and achievable. This reasoning contradicts itself: On the one
 hand, if a person sets a goal that is realistic and achievable, how is it any
 different from the plans that would be successfully undertaken anyway? On the other
@@ -112,7 +112,7 @@ where there exists a separation between passions and rationality (Wright, 2013).
 
 The philosophical discourse of Aristotle is based on a very particular understanding
 of truth – the rationally proved ultimate good. Lacan claims that morality requires
-a priori content(?) and to illustrate this, he compares the reasoning of Emmanuel
+a priori belief and to illustrate this, he compares the reasoning of Emmanuel
 Kant to Marquis de Sade. Kant, in Aristotelian fashion, regards the sphere of
 desires and passions as "pathological" and to overcome it, he offers us rather
 formal rationality of his Categorical Imperative. It is interesting that, according
