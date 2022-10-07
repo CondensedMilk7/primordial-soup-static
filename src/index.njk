@@ -9,8 +9,12 @@ layout: "base.njk"
 <section class="recent-article">
     <div class="section-content">
         <h1>Featured Articles</h1>
-        {%- for article in collections.featured | reverse -%}
-            {% include 'article-preview.njk' %}
-        {%- endfor -%}
+        <ul class="articles__list">
+            {%- for article in collections.featured | reverse -%}
+                <li>
+                    {% include 'article-preview.njk' %}
+                </li>
+            {%- endfor -%}
+        </ul>
     </div>
 </section>
