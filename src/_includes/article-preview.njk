@@ -1,5 +1,6 @@
 <article class="article-preview">
-    <img src="{{ article.data.image }}" alt="article thumbnail" width="1280" height="720">
+    <a href="{{ article.url }}">
+        <img src="{{ article.data.image }}" alt="article thumbnail" width="1280" height="720"></a>
         <div class="article-content">
             <h1>{{ article.data.title }}</h1>
             <p class="article-content__author">by
