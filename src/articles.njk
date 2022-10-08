@@ -10,10 +10,13 @@ pagination:
 <div class="articles-container">
     <div class="articles-background"></div>
     <div class="articles">
-        {%- for article in articles -%}
-            {% include 'article-preview.njk' %}
-        {%- endfor -%}
-        {# Temporary paginator #}
+        <ul class="articles__list">
+            {%- for article in articles -%}
+                <li>
+                    {% include 'article-preview.njk' %}
+                </li>
+            {%- endfor -%}
+        </ul>
         <nav aria-labelledby="pages" class="paginator">
             <ol>
                 {# Previous page #}

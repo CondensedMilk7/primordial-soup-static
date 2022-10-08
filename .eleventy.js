@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const { ResourceLink } = require("./src/lib/resource-link");
 const { DateOrder } = require("./src/lib/date-order");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -32,6 +33,8 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addPlugin(pluginRss);
 
   return {
     dir: {
