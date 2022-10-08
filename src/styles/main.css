@@ -118,12 +118,23 @@ a {
   padding: 0.1rem;
   color: var(--fg);
   letter-spacing: 0.3rem;
+  transition: background 100ms linear;
+  animation-name: image-in;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 
 .hero h1 {
   font-family: "Playfair Display", serif;
   font-size: 4rem;
   text-align: center;
+}
+
+.hero h1,
+.hero h3 {
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 
 section {
@@ -520,6 +531,8 @@ p.reference {
   margin-bottom: 1rem;
 }
 
+/* ===================== MEDIA QUIERIES ======================= */
+
 @media (max-width: 400px) {
   p.reference {
     line-break: anywhere;
@@ -604,5 +617,34 @@ p.reference {
 
   .contact-section {
     min-height: 90vh;
+  }
+}
+
+/* ===================== ANIMATIONS ======================= */
+
+@keyframes image-in {
+  from {
+    background-position: top;
+  }
+  to {
+    background-position: center;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    color: rgba(0, 0, 0, 0);
+  }
+  to {
+    color: inherit;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(900px);
+  }
+  to {
+    transform: translateX(0);
   }
 }
