@@ -159,6 +159,16 @@ section p {
   margin: 1.2rem 0;
 }
 
+.news {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--bg-light);
+}
+
+.news h1 {
+  margin-bottom: 3rem;
+}
+
 .recent-article {
   text-align: center;
   background: var(--bg-alt);

@@ -6,6 +6,10 @@ layout: "base.njk"
 ---
 
 {% include 'hero.njk' %}
+<section class="news">
+    <h1>News & Announcements</h1>
+    {{ collections.announcement[0].templateContent | safe }}
+</section>
 <section class="recent-article">
     <div class="section-content">
         <h1>Featured Articles</h1>
