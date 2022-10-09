@@ -2,7 +2,7 @@
 tags: announcement
 ---
 
-We now have an [RSS feed](/feed.xml)! This means that you will not miss out on new articles.
+We now have an [RSS feed](/feed)! This means that you will not miss out on new articles.
 
 Install RSS feed reader on your browser, if you haven't already, and add our feed to it.
 
