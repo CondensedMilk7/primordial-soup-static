@@ -29,7 +29,14 @@ metadata:
             <link href="{{ absolutePostUrl }}"/>
             <updated>{{ article.data.date | dateToRfc3339 }}</updated>
             <id>{{ absolutePostUrl }}</id>
-            <content xml:lang="{{ metadata.language }}" type="html">{{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+            <content xml:lang="{{ metadata.language }}" type="html">
+                {{ article.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+                <section>
+                    <h2>References</h2>
+                    <p>See references and free resource links
+                        <a href="{{ absolutePostUrl }}">on the website</a>.</p>
+                </section>
+            </content>
         </entry>
     {%- endfor %}
 </feed>
