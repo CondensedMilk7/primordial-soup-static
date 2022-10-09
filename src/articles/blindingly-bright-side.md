@@ -114,8 +114,8 @@ where there exists a separation between passions and rationality (Wright, 2013).
 The philosophical discourse of Aristotle is based on a very particular understanding
 of truth – the rationally proved ultimate good. This in itself wouldn't have implications
 worth the criticism if it wasn't for Descartes that an important tendency appeared: to
-conflate the consciousness and rationality. Due to this, what opposed the consciousness
-- namely the field of sexuality - was altogether discarded from the virtuous, ethical life.
+conflate the consciousness and rationality. Due to this, what opposed the consciousness -
+namely the field of sexuality - was altogether discarded from the virtuous, ethical life.
 It was therefore the unconscious in its entirety that - as it would seem - stood in
 opposition to a good life, therefore the consciousness must have taken the reins of
 power over it. This is precisely the Freud's metaphor that the ego psychologists
