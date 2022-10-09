@@ -8,6 +8,7 @@ tags: featured
 image: "https://i.imgur.com/E6oNubh.jpg"
 references:
   - 'Beier, M. (2014). "Always Look At The Bright Side Of Life?":"Positive" Psychology, Psychoanalysis, And Pastoral Theology. Journal of Pastoral Theology, 24(2), 3-1. https://doi.org/10.1179/JPT.2014.24.2.003'
+  - "Freud, S. (2013). The Ego and the Id. W.W. Norton & Company (NY)"
   - "Goldie, P. (2002). The Emotions: A Philosophical Exploration. Oxford University Press."
   - "Lacan, J. (2014). Seminar VII: The ethics of psychoanalysis. London: W. W. Norton & Company."
   - 'Miller, A. (2008). A critique of positive psychology – or "the new science of happiness".  Journal of philosophy of education, 42(3 4), 591-608. https://doi.org/10.1111/j.1467-9752.2008.00646.x'
@@ -111,7 +112,28 @@ where there exists a separation between passions and rationality (Wright, 2013).
 > elsewhere" (Lacan, 2014, p.5).
 
 The philosophical discourse of Aristotle is based on a very particular understanding
-of truth – the rationally proved ultimate good. Lacan claims that morality requires
+of truth – the rationally proved ultimate good. This in itself wouldn't have implications
+worth the criticism if it wasn't for Descartes that an important tendency appeared: to
+conflate the consciousness and rationality. Due to this, what opposed the consciousness
+- namely the field of sexuality - was altogether discarded from the virtuous, ethical life.
+It was therefore the unconscious in its entirety that - as it would seem - stood in
+opposition to a good life, therefore the consciousness must have taken the reins of
+power over it. This is precisely the Freud's metaphor that the ego psychologists
+so eagerly adopted: "Thus in its relation to the id [the unconscious] it [the ego]
+is like a man on horseback, who has to hold in check the superior strength of the
+horse" (Freud, 2013, p.25). Although the rest of the quote is usually left out:
+"Often a rider, if he is not to be parted from his horse, is obliged to
+guide it where it wants to go" (Freud, 2013, p.25). All this is to say that
+if an argument of happy life is made with the opposition of the conscious and the
+unconscious, there is no ultimate rational good to speak of. Positive
+psychology may claim - just like the entirety of self-help culture - that through
+conscious control, one can get a hold of himself and have a good life but there is
+no life without the unconscious (and certainly not a happy and ethical one, as I will
+go on to show by Lacan's example). More importantly, the moral bias cannot be escaped
+by pure rationality in science, especially in the field where the goal is to study
+"what goes right in life" and "how to encourage it" (Peterson, 2006, p.4).
+
+Lacan claims that morality requires
 a priori belief and to illustrate this, he compares the reasoning of Emmanuel
 Kant to Marquis de Sade. Kant, in Aristotelian fashion, regards the sphere of
 desires and passions as "pathological" and to overcome it, he offers us rather
@@ -120,6 +142,8 @@ to Lacan, Sade adheres to exactly the same principles of rational universality b
 reasons to prove the exact opposite: the goodness that comes from disposing of moral
 restrictions in pursuit of sensual pleasure (Wright, 2013).
 
+Is it possible to know "what goes right" in life by pure rational reasoning, devoid
+of any moral components that are given a priori, i.e unconsciously?
 Positive psychology, although portrayed as a strict field of science, is based
 on a vast multitude of a priori cultural beliefs, which is evident in many different
 fields of psychology in Anglo-American culture, be it ego psychology, humanistic
