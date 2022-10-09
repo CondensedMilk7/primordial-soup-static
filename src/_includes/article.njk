@@ -22,31 +22,13 @@ layout: "base.njk"
     <section class="references">
         <h2>References</h2>
         {%- for reference in references -%}
-            <p class="reference">
-                {{ reference | safe }}
-            </p>
-            <div class="reference-links">
-                <a class="reference-link" href="{{ reference | scholar }}">
-                    <img src="/assets/icons/scholar.png" alt="sci-hub icon">
-                        <span>scholar</span>
-                    </a>
-                    <a class="reference-link" href="{{ reference | libgen }}">
-                        <img src="/assets/icons/libgen.png" alt="libgen icon">
-                            <span>libgen</span>
-                        </a>
-                        {% if reference | scihub %}
-                            <a class="reference-link" href="{{ reference | scihub }}">
-                                <img src="/assets/icons/sci-hub.png" alt="sci-hub icon">
-                                    <span>sci-hub</span>
-                                </a>
-                            {% endif %}
-                        </div>
-                    {%- endfor -%}
-                </section>
-                <div class="license">
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-                    </a><br/>All works here are licensed under a
-                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0
-                        International License</a>.
-                </div>
-            </article>
+            {% include "reference.njk" %}
+        {%- endfor -%}
+    </section>
+    <div class="license">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
+        </a><br/>All works here are licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0
+            International License</a>.
+    </div>
+</article>
