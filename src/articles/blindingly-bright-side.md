@@ -1,22 +1,31 @@
 ---
-title: "Blindingly Bright Side: the Problem of Positive Psychology in the Dialectic of Conscious and Unconscious"
-author: "Pridon Tetradze"
+title: "Blindingly Bright Side: the Problem of Positive Psychology in the
+  Dialectic of Conscious and Unconscious"
+description: Discussing the faulty dialectic of the conscious and the
+  unconscious implicitly present in positive psychology.
+author: Pridon Tetradze
 authorPage: https://pridontetradze.com
-description: "Discussing the faulty dialectic of the conscious and the unconscious implicitly present in positive psychology."
 date: 2022-10-07
 tags: featured
-image: "https://i.imgur.com/E6oNubh.jpg"
+image: https://i.imgur.com/E6oNubh.jpg
 references:
-  - 'Beier, M. (2014). "Always Look At The Bright Side Of Life?":"Positive" Psychology, Psychoanalysis, And Pastoral Theology. Journal of Pastoral Theology, 24(2), 3-1. https://doi.org/10.1179/JPT.2014.24.2.003'
-  - "Freud, S. (2013). The Ego and the Id. W.W. Norton & Company (NY)"
-  - "Goldie, P. (2002). The Emotions: A Philosophical Exploration. Oxford University Press."
-  - "Lacan, J. (2014). Seminar VII: The ethics of psychoanalysis. London: W. W. Norton & Company."
-  - 'Miller, A. (2008). A critique of positive psychology – or "the new science of happiness".  Journal of philosophy of education, 42(3 4), 591-608. https://doi.org/10.1111/j.1467-9752.2008.00646.x'
-  - "Peterson, C. (2006). A primer in positive psychology. Oxford University Press."
-  - "Seligman, M. E. P. (2006). Learned Optimism. New York, Vintage Books."
-  - "Wright, C. (2013). Against Flourishing: Wellbeing as biopolitics, and the psychoanalytic. https://doi.org/10.5195/hcs.2013.151"
+  - Beier, M. (2014). "Always Look At The Bright Side Of Life?":"Positive"
+    Psychology, Psychoanalysis, And Pastoral Theology. Journal of Pastoral
+    Theology, 24(2), 3-1. https://doi.org/10.1179/JPT.2014.24.2.003
+  - Freud, S. (2013). The Ego and the Id. W.W. Norton & Company (NY)
+  - "Goldie, P. (2002). The Emotions: A Philosophical Exploration. Oxford
+    University Press."
+  - "Lacan, J. (2014). Seminar VII: The ethics of psychoanalysis. London: W. W.
+    Norton & Company."
+  - Miller, A. (2008). A critique of positive psychology – or "the new science
+    of happiness".  Journal of philosophy of education, 42(3 4), 591-608.
+    https://doi.org/10.1111/j.1467-9752.2008.00646.x
+  - Peterson, C. (2006). A primer in positive psychology. Oxford University
+    Press.
+  - Seligman, M. E. P. (2006). Learned Optimism. New York, Vintage Books.
+  - "Wright, C. (2013). Against Flourishing: Wellbeing as biopolitics, and the
+    psychoanalytic. https://doi.org/10.5195/hcs.2013.151"
 ---
-
 ## Introduction
 
 Despite the fact that it is hard to doubt the good intentions driving the followers
@@ -101,9 +110,8 @@ Despite this, followers of positive psychology often use cultural and ethical co
 among which "eudaimonia" is more distinguished – a Greek term for human flourishing,
 ultimate good and happiness. The concept of "eudaimonia", as well as "weakness of will"
 leads us back to Aristotelian ethics. Lacan (2008) in his seventh seminar speaks about
-the dangers of happiness studies and criticizes Aristotle's ethics. Aristotle inherits
-the fundamental opposition between appetitive desires and moral reason from stoicism
-where there exists a separation between passions and rationality (Wright, 2013).
+the dangers of happiness studies and criticizes Aristotle's ethics. Aristotle makes
+a fundamental distinction between appetitive desires and moral reason – the separation between passions and rationality (Wright, 2013).
 
 > "A whole large field of what constitutes for us the sphere of sexual desires is
 > simply classed by Aristotle in the realm of monstrous anomalies - he uses the term
@@ -119,7 +127,7 @@ namely the field of sexuality - was altogether discarded from the virtuous, ethi
 It was therefore the unconscious in its entirety that - as it would seem - stood in
 opposition to a good life, therefore the consciousness must have taken the reins of
 power over it. This is precisely the Freud's metaphor that the ego psychologists
-so eagerly adopted: "Thus in its relation to the id [the unconscious] it [the ego]
+so eagerly adopted: "Thus in its relation to the id \[the unconscious] it \[the ego]
 is like a man on horseback, who has to hold in check the superior strength of the
 horse" (Freud, 2013, p.25). Although the rest of the quote is usually left out:
 "Often a rider, if he is not to be parted from his horse, is obliged to
