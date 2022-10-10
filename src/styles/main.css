@@ -21,6 +21,7 @@
 
 html {
   font-family: "Merriweather", serif;
+  font-size: 15px;
 }
 
 body {
@@ -53,12 +54,6 @@ a {
   cursor: pointer;
 }
 
-.hamburger {
-  display: none;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
 .main-nav__list {
   list-style: none;
   display: flex;
@@ -78,7 +73,7 @@ a {
 .main-nav__link:after {
   content: "";
   position: absolute;
-  height: 0.1em;
+  height: 0.15em;
   bottom: -0.3em;
   margin: 0 auto;
   left: 0;
@@ -93,15 +88,7 @@ a {
 }
 
 .nav-active:after {
-  content: "";
-  position: absolute;
-  height: 0.1em;
-  bottom: -0.3em;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
   width: 100%;
-  background: var(--fg);
 }
 
 .hero {
@@ -110,7 +97,7 @@ a {
   background-size: cover;
   background-color: var(--bg);
   width: 100%;
-  height: 26rem;
+  height: 32rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,9 +105,11 @@ a {
   padding: 0.1rem;
   color: var(--fg);
   letter-spacing: 0.3rem;
-  transition: background 100ms linear;
-  animation-name: image-in;
-  animation-duration: 2s;
+}
+
+.hero-animated {
+  animation-name: size-down, fade-in;
+  animation-duration: 4s;
   animation-iteration-count: 1;
 }
 
@@ -128,13 +117,6 @@ a {
   font-family: "Playfair Display", serif;
   font-size: 4rem;
   text-align: center;
-}
-
-.hero h1,
-.hero h3 {
-  animation-name: fade-in;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
 }
 
 section {
@@ -584,7 +566,6 @@ p.reference {
   .header__logo {
     width: 100%;
     text-align: center;
-    margin-bottom: 1rem 0;
     padding: 1rem 0;
     background: url(/assets/images/wallpaper-soup.jpg);
     background-position: center;
@@ -636,12 +617,15 @@ p.reference {
 
 /* ===================== ANIMATIONS ======================= */
 
-@keyframes image-in {
+@keyframes size-down {
   from {
-    background-position: top;
+    height: 95vh;
+  }
+  60% {
+    height: 95vh;
   }
   to {
-    background-position: center;
+    height: 32rem;
   }
 }
 
@@ -650,15 +634,6 @@ p.reference {
     color: rgba(0, 0, 0, 0);
   }
   to {
-    color: inherit;
-  }
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateX(900px);
-  }
-  to {
-    transform: translateX(0);
+    color: var(--fg);
   }
 }
