@@ -40,7 +40,7 @@ values.
 ## The Problem of Conscious Control
 
 Positive psychology claims that anyone can reach their goals if their attitude is
-positive enough: "Optimism is a tool to help the individual achieve the goals he has
+positive enough: "Optimism is a tool to help the individual achieve the goals he has set
 for himself" (Seligman, 2006, p.291). To this, Seligman (2006) adds that the goals
 must be realistic and achievable. This reasoning contradicts itself: On the one
 hand, if a person sets a goal that is realistic and achievable, how is it any
