@@ -8,7 +8,7 @@ authorPage: https://pridontetradze.com
 date: 2022-10-07
 tags: featured
 videoUrl: https://www.youtube.com/watch?v=ntwK9z8jX5k
-image: https://i.imgur.com/E6oNubh.jpg
+image: https://i.ytimg.com/vi/ntwK9z8jX5k/hq720.jpg
 references:
   - Beier, M. (2014). "Always Look At The Bright Side Of Life?":"Positive"
     Psychology, Psychoanalysis, And Pastoral Theology. Journal of Pastoral
