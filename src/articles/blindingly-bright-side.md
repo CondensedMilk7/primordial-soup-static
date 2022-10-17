@@ -25,7 +25,8 @@ references:
     Press.
   - Seligman, M. E. P. (2006). Learned Optimism. New York, Vintage Books.
   - "Wright, C. (2013). Against Flourishing: Wellbeing as biopolitics, and the
-    psychoanalytic. https://doi.org/10.5195/hcs.2013.151"
+    psychoanalytic alternative. Health, Culture and Society, 5(1), 20-35.
+    doi:https://doi.org/10.5195/hcs.2013.151"
 ---
 ## Introduction
 
