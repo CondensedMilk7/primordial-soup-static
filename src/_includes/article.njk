@@ -19,12 +19,14 @@ layout: "base.njk"
         </p>
     </div>
     {{ content | safe }}
-    <section class="references">
-        <h2>References</h2>
-        {%- for reference in references -%}
-            {% include "reference.njk" %}
-        {%- endfor -%}
-    </section>
+    {% if references %}
+      <section class="references">
+          <h2>References</h2>
+          {%- for reference in references -%}
+              {% include "reference.njk" %}
+          {%- endfor -%}
+      </section>
+      {% endif %}
     <div class="license">
         <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
         </a><br/>All works here are licensed under a

@@ -1,59 +1,94 @@
-class ResourceLink {
-  static libgen(reference) {
-    const title = this.getTitle(reference);
-    const urlfiedTitle = title.replace(/ /g, "+");
-    const firstAuthor = this.getFirstAuthor(reference);
-
-    // If it's from an article
+function extractCitations(bibHtml) {
+  let citations = [];
+  bibHtml.split("\n").forEach((c) => {
+    // Do not include wrapper divs and empty strings (empty lines)
     if (
-      reference.toLowerCase().includes("journal") ||
-      reference.toLowerCase().includes("magazine")
-    ) {
-      return `https://libgen.is/scimag/?q=${urlfiedTitle}+${firstAuthor}`;
-    } else {
-      // Otherwise look for non-fiction (book?)
-      return `https://libgen.is/search.php?req=${urlfiedTitle}&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=title`;
-    }
+      c === '<div class="bibliography-contents">' ||
+      c === "</div>" ||
+      c === ""
+    )
+      return;
+    let citation = c;
+    // substitute div tags with p
+    citation = citation.replace(/div(?=>|\ class=\")/g, "p");
+    // add "reference" class
+    citation = citation.replace(/"csl-entry"/g, '"csl-entry reference"');
+    citations.push(citation);
+  });
+  return citations;
+}
+
+// Add resource links to citations array using a corresponding
+// array of biblatex data. Citation text and bibData must have
+// matching indexes in array. By default, the markdown-it-biblatex
+// provides bibData in such a manner through env.bib.refs.
+function addLinks(citations, bibData) {
+  let linked = [];
+
+  citations.forEach((citation, index) => {
+    linked.push(citation);
+    const bibItem = bibData[index].item;
+    const links = [
+      scholar(bibItem.title, bibItem.author),
+      libgen(bibItem.title, bibItem.author, bibItem.type),
+      scihub(bibItem.DOI),
+    ];
+    // wrap links in a div
+    linked.push('  <div class="reference-links">');
+    links.forEach((l) => {
+      // If scihub returns null for non-existent doi,
+      // it should not be rendered. This operation
+      // makes sure only truethy values are added to 'linked'
+      if (l) {
+        linked.push("    " + l);
+      }
+    });
+    linked.push("  </div>");
+  });
+  return linked;
+}
+
+function libgen(title, authors, type) {
+  const urlfiedTitle = title.replace(/ /g, "+");
+  const urlfiedAuthors = urlAuthors(authors);
+
+  let link = `https://libgen.is/search.php?req=${urlfiedTitle}+${urlfiedAuthors}&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=title`;
+
+  if (type === "article-journal") {
+    link = `https://libgen.is/scimag/?q=${urlfiedTitle}+${urlfiedAuthors}`;
   }
 
-  static scihub(reference) {
-    const doi = this.getDOI(reference);
-    if (doi) {
-      return "https://sci-hub.se/" + doi;
-    } else {
-      return null;
-    }
-  }
+  return anchor("libgen", "libgen.png", link);
+}
 
-  static scholar(reference) {
-    const title = this.getTitle(reference);
-    const allAuthors = this.getAllAuthors(reference);
-    const authorsUrlfied = allAuthors.replace(/ /g, "+").replace(/&/g, "");
-    const urlfiedTitle = title.replace(/ /g, "+");
-
-    return `https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=${urlfiedTitle}+${authorsUrlfied}`;
-  }
-
-  static getFirstAuthor(reference) {
-    return reference.split(",")[0];
-  }
-
-  static getAllAuthors(reference) {
-    return reference.split(". (")[0] + ".";
-  }
-
-  static getTitle(reference) {
-    return reference.split("). ")[1].split(".")[0];
-  }
-
-  static getDOI(reference) {
-    const doiBase = "https://doi.org/";
-    if (reference.includes(doiBase)) {
-      return doiBase + reference.split(doiBase)[1];
-    } else {
-      return null;
-    }
+function scihub(doi) {
+  if (doi) {
+    return anchor("sci-hub", "sci-hub.png", "https://sci-hub.se/" + doi);
+  } else {
+    return null;
   }
 }
 
-exports.ResourceLink = ResourceLink;
+function scholar(title, authors) {
+  const authorsUrlfied = urlAuthors(authors);
+  const urlfiedTitle = title.replace(/ /g, "+");
+  const link = `https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=${urlfiedTitle}+${authorsUrlfied}`;
+
+  return anchor("scholar", "scholar.png", link);
+}
+
+function anchor(title, icon, link) {
+  return `<a class="reference-link" href="${link}" target="_blank"><img src="/assets/icons/${icon}" alt="${title} icon"/><span>${title}</span></a>`;
+}
+
+function urlAuthors(authors) {
+  let authorNames = "";
+
+  authors.forEach((a, index) => {
+    authorNames += index === 0 ? a.family : "+" + a.family;
+  });
+
+  return authorNames;
+}
+
+module.exports = { scholar, libgen, scihub, extractCitations, addLinks };
