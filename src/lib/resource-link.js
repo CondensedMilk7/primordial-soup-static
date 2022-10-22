@@ -18,21 +18,27 @@ function extractCitations(bibHtml) {
   return citations;
 }
 
-// Add resource links to citations array using a corresponding
-// array of biblatex data. Citation text and bibData must have
-// matching indexes in array. By default, the markdown-it-biblatex
-// provides bibData in such a manner through env.bib.refs.
 function addLinks(citations, bibData) {
   let linked = [];
 
   citations.forEach((citation, index) => {
-    linked.push(citation);
-    const bibItem = bibData[index].item;
+    const cit = citation.toLowerCase();
+
+    const title = getTitle(cit);
+    const authors = getAllAuthors(cit);
+    const doi = getDOI(cit);
+
     const links = [
-      scholar(bibItem.title, bibItem.author),
-      libgen(bibItem.title, bibItem.author, bibItem.type),
-      scihub(bibItem.DOI),
+      scholar(title, authors),
+      libgen(
+        title,
+        authors,
+        cit.includes("journal") || cit.includes("magazine")
+      ),
+      scihub(doi),
     ];
+
+    linked.push(citation);
     // wrap links in a div
     linked.push('  <div class="reference-links">');
     links.forEach((l) => {
@@ -48,13 +54,13 @@ function addLinks(citations, bibData) {
   return linked;
 }
 
-function libgen(title, authors, type) {
+function libgen(title, authors, scimag) {
   const urlfiedTitle = title.replace(/ /g, "+");
   const urlfiedAuthors = urlAuthors(authors);
 
   let link = `https://libgen.is/search.php?req=${urlfiedTitle}+${urlfiedAuthors}&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=title`;
 
-  if (type === "article-journal") {
+  if (scimag) {
     link = `https://libgen.is/scimag/?q=${urlfiedTitle}+${urlfiedAuthors}`;
   }
 
@@ -82,13 +88,33 @@ function anchor(title, icon, link) {
 }
 
 function urlAuthors(authors) {
-  let authorNames = "";
-
-  authors.forEach((a, index) => {
-    authorNames += index === 0 ? a.family : "+" + a.family;
-  });
-
+  let authorNames = authors;
+  authorNames = authorNames.replace(/&#38/g, "");
+  authorNames = authorNames.replace(/\.|,|;/g, "");
+  authorNames = authorNames.replace(/ /g, "+");
   return authorNames;
+}
+
+function getAllAuthors(reference) {
+  return reference.split(">")[1].split("(")[0];
+}
+
+function getTitle(reference) {
+  const titleWithItalics = "). <i>";
+  if (reference.includes(titleWithItalics)) {
+    return reference.split(titleWithItalics)[1].split("</i>")[0];
+  } else {
+    return reference.split("). ")[1].split(" <i>")[0];
+  }
+}
+
+function getDOI(reference) {
+  const doiBase = "https://doi.org/";
+  if (reference.includes(doiBase)) {
+    return doiBase + reference.split(doiBase)[1].split("<")[0];
+  } else {
+    return null;
+  }
 }
 
 module.exports = { scholar, libgen, scihub, extractCitations, addLinks };

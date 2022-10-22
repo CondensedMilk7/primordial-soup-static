@@ -4,7 +4,7 @@ const { extractCitations, addLinks } = require("./src/lib/resource-link");
 const { DateOrder } = require("./src/lib/date-order");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
-const mdBiblatex = require("@arothuis/markdown-it-biblatex");
+const configureMdBiblatex = require("./config/md-biblatex");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -41,39 +41,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss);
 
-  // New resource link generator
   const md = markdownIt();
-  md.use(mdBiblatex, {
-    bibPath: "./example.bib",
-  });
-
-  const defaultRenderer =
-    md.renderer.rules.biblatex_bibliography_contents ||
-    function (tokens, idx, options, env, slf) {
-      return slf.renderToken(tokens, idx, options, env);
-    };
-
-  md.renderer.rules.biblatex_bibliography_contents = function (
-    tokens,
-    idx,
-    options,
-    env
-  ) {
-    const bibHtml = defaultRenderer(tokens, idx, options, env);
-
-    let bibData = [];
-    env.bib.refs.forEach((r) => {
-      bibData.push(r.citation.citationItems[0]);
-    });
-
-    const citations = extractCitations(bibHtml);
-    const linked = addLinks(citations, bibData);
-
-    // Additional new line at the end because the closing function
-    // of the library doesn't add it before the closing div.
-    return linked.join("\n") + "\n";
-  };
-
+  // New resource link generator
+  configureMdBiblatex(md);
   eleventyConfig.setLibrary("md", md);
 
   return {
