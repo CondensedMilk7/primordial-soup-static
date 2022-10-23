@@ -20,14 +20,15 @@ function setupMdBiblatex(md) {
     env
   ) {
     const bibHtml = defaultRenderer(tokens, idx, options, env);
-
-    let bibData = [];
-    env.bib.refs.forEach((r) => {
-      bibData.push(r.citation.citationItems[0]);
-    });
+    // Can be used to access bibliography data.
+    // Currently not being used.
+    // let bibData = [];
+    // env.bib.refs.forEach((r) => {
+    //   bibData.push(r.citation.citationItems[0]);
+    // });
 
     const citations = extractCitations(bibHtml);
-    const linked = addLinks(citations, bibData);
+    const linked = addLinks(citations);
 
     // Additional new line at the end because the closing function
     // of the library doesn't add it before the closing div.

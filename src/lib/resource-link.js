@@ -18,7 +18,7 @@ function extractCitations(bibHtml) {
   return citations;
 }
 
-function addLinks(citations, bibData) {
+function addLinks(citations) {
   let linked = [];
 
   citations.forEach((citation, index) => {

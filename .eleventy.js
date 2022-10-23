@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 const { ResourceLink } = require("./src/lib/resource-link-legacy");
-const { extractCitations, addLinks } = require("./src/lib/resource-link");
 const { DateOrder } = require("./src/lib/date-order");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
@@ -41,7 +40,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss);
 
-  const md = markdownIt();
+  const md = markdownIt({
+    linkify: true,
+    typographer: true,
+  });
   // New resource link generator
   configureMdBiblatex(md);
   eleventyConfig.setLibrary("md", md);
