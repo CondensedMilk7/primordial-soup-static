@@ -1,7 +1,9 @@
 const { DateTime } = require("luxon");
-const { ResourceLink } = require("./src/lib/resource-link");
+const { ResourceLink } = require("./src/lib/resource-link-legacy");
 const { DateOrder } = require("./src/lib/date-order");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const markdownIt = require("markdown-it");
+const configureMdBiblatex = require("./config/md-biblatex");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -22,6 +24,8 @@ module.exports = function (eleventyConfig) {
     DateOrder.byNewest(articles)
   );
 
+  // Legacy resource link generators
+  // for older articles that don't use biblatex
   eleventyConfig.addFilter("libgen", (reference) =>
     ResourceLink.libgen(reference)
   );
@@ -35,6 +39,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   eleventyConfig.addPlugin(pluginRss);
+
+  const md = markdownIt({
+    linkify: true,
+    typographer: true,
+  });
+  // New resource link generator
+  configureMdBiblatex(md);
+  eleventyConfig.setLibrary("md", md);
 
   return {
     dir: {

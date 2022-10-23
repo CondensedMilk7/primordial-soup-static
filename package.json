@@ -13,6 +13,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@arothuis/markdown-it-biblatex": "^0.3.0",
     "jasmine": "^4.4.0"
   }
 }

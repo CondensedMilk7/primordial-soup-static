@@ -1,6 +1,8 @@
 ![](/images/soup-cover.png)
 
-A static website for https://primordialsoup.info
+# Primordial Soup
+
+A static website generator for https://primordialsoup.info
 
 Built with [11ty](https://www.11ty.dev/).
 
@@ -8,10 +10,10 @@ Built with [11ty](https://www.11ty.dev/).
 
 - ~~Generate pirate links from references.~~
 - ~~Add pagination~~
+- ~~Implement R-markdown style articles~~
+  - ~~Use .bib file for centralized references store.~~
+  - Generate references section and pirate links from .bib file in articles (currently it is generated from bibliography text).
 - Implement html-to-pdf article conversion so that users can download pdfs.
-- Implement R-markdown style articles
-  - Use .bib file for centralized references store.
-  - Generate references section and pirate links from .bib file in articles.
 - Add support for multiple academic styles (APA, MLA, Chicago).
 - Custom reference source links if it is not available on sci-hub and libgen (maybe add property to an item in .bib file with the link).
 
