@@ -21,6 +21,6 @@ describe("Resource Link", () => {
 });
 
 // TODO: finish writing tests.
-describe("Extracts DOI", () => {
-  const result = getDoi(citations[0]);
-});
+// describe("Extracts DOI", () => {
+//   const result = getDoi(citations[0]);
+// });
