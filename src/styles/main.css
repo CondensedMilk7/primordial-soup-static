@@ -20,11 +20,11 @@
 }
 
 html {
-  font-family: "Merriweather", serif;
   font-size: 15px;
 }
 
 body {
+  font-family: "Merriweather", serif;
   color: var(--text);
 }
 
@@ -259,6 +259,21 @@ footer {
   align-items: flex-end;
 }
 
+.icon-button {
+  display: flex;  
+  align-items: center;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.icon-button > img {
+  width: 1rem; 
+  margin-right: 0.2rem;
+}
+
 .button {
   text-decoration: none;
   background: var(--bg);
@@ -331,6 +346,7 @@ footer {
 .main-article ul {
   list-style-position: inside;
   padding-left: 1rem;
+  line-height: 1.8rem;
 }
 
 .main-article li {
@@ -636,5 +652,40 @@ p.reference {
   }
   to {
     color: var(--fg);
+  }
+}
+
+/* ===================== PRINTING ======================= */
+
+@media print {
+  body {
+    font-size: 12pt;
+    color: #000000;
+  }
+
+  header,
+  footer,
+  #print-button,
+  .reference-links,
+  .license {
+    display: none;
+  }
+  
+  .article-info {
+    margin-top: 0;
+  }
+  
+  .article-author a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+  
+  #article-title {
+    margin-top: 0;
+  }
+  
+  .references {
+    text-align: justify;
   }
 }
