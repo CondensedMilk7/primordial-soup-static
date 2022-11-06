@@ -1,14 +1,14 @@
 // creates citation of an article from primordialsoup.info
 // and copies it to clipboard
-function citeArticle(author, date, title) {
+function citeArticle(author, date, title, url) {
   const citAuthor = getCitAuthor(author);
   const apaTitle = title.charAt(0).toUpperCase() + title.slice(1).toLowerCase();
 
-  const citation = `${citAuthor} (${date}). ${apaTitle}. www.primordialsoup.info.`;
+  const citation = `${citAuthor} (${date}). ${apaTitle}. https://primordialsoup.info${url}`;
 
   navigator.clipboard.writeText(citation).then(
     () => {
-      console.log("copied: " + citation);
+      notification("Copied to clipboard:", citation, 2500);
     },
     (err) => {
       console.error("Could not copy citation: ", err);
@@ -30,4 +30,30 @@ function citeArticle(author, date, title) {
     }
     return citName;
   }
+}
+
+function copyUrl(url) {
+  const articleUrl = "https://primordialsoup.info" + url;
+  navigator.clipboard.writeText(articleUrl).then(
+    () => {
+      notification("Copied to clipboard:", articleUrl, 2000);
+    },
+    (err) => {
+      console.error("Could not copy citation: ", err);
+    }
+  );
+}
+
+function notification(title, body, duration) {
+  const notification = document.querySelector(".notification");
+  const notifTitle = document.querySelector(".notification__title");
+  const notifBody = document.querySelector(".notification__body");
+
+  notifTitle.textContent = title;
+  notifBody.textContent = body;
+
+  setTimeout(() => {
+    notification.setAttribute("style", "display: none;");
+  }, duration);
+  notification.setAttribute("style", "display: block;");
 }
