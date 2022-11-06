@@ -4,36 +4,50 @@ layout: "base.njk"
 
 <article class="main-article">
     <div class="article-background"></div>
-    <button id="print-button" class="icon-button" onClick="print()"><img src="/assets/icons/print.svg"/>
-        <span>Print</span>
-    </button>
-    <div class="article-info">
-        <h1 id="article-title">{{ title }}
-        </h1>
-        <p class="article-date">
-            {{ date | postDate }}
-        </p>
-        <p class="article-author">
-            <strong>By
-            </strong>
-            <a href="{{ authorPage }}" target="_blank">
-                {{ author }}
-            </a>
-        </p>
-    </div>
-    {{ content | safe }}
-    {% if references %}
-        <section class="references">
-            <h2>References</h2>
-            {%- for reference in references -%}
-                {% include "reference.njk" %}
-            {%- endfor -%}
-        </section>
-    {% endif %}
-    <div class="license">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
-        </a><br/>All works here are licensed under a
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0
-            International License</a>.
-    </div>
-</article>
+    <div class="article-actions">
+        <button id="print-button" class="icon-button" onClick="print()">
+            <img src="/assets/icons/print.svg"/>
+            <span>Print</span>
+        </button>
+        <button
+            id="cite-btn"
+            class="icon-button"
+            onClick='citeArticle( {{ author | strArg }}, {{ date | getYear }}, {{ title | strArg }}, {{ page.url | strArg }} )'>
+            <img src="/assets/icons/quote.svg">
+                <span>Cite (APA)</span>
+            </button>
+            <button id="share-button" class="icon-button" onClick='copyUrl({{ page.url | strArg }})'>
+                <img src="/assets/icons/share.svg"/>
+                <span>Share</span>
+            </button>
+        </div>
+        <div class="article-info">
+            <h1 id="article-title">{{ title }}
+            </h1>
+            <p class="article-date">
+                {{ date | postDate }}
+            </p>
+            <p class="article-author">
+                <strong>By
+                </strong>
+                <a href="{{ authorPage }}" target="_blank">
+                    {{ author }}
+                </a>
+            </p>
+        </div>
+        {{ content | safe }}
+        {% if references %}
+            <section class="references">
+                <h2>References</h2>
+                {%- for reference in references -%}
+                    {% include "reference.njk" %}
+                {%- endfor -%}
+            </section>
+        {% endif %}
+        <div class="license">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"/>
+            </a><br/>All works here are licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0
+                International License</a>.
+        </div>
+    </article>

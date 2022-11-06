@@ -20,9 +20,17 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
+  eleventyConfig.addFilter("getYear", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toISODate().split("-")[0];
+  });
+
   eleventyConfig.addFilter("byNewest", (articles) =>
     DateOrder.byNewest(articles)
   );
+
+  eleventyConfig.addFilter("strArg", (value) => {
+    return `"${value}"`;
+  });
 
   // Legacy resource link generators
   // for older articles that don't use biblatex

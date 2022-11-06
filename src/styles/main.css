@@ -91,6 +91,32 @@ a {
   width: 100%;
 }
 
+.notification {
+  position: fixed;
+  width: fit-content;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 0.6em;
+  margin: auto;
+  z-index: 3;
+  border: 1px solid var(--fg);
+  border-radius: 8px;
+  display: none;
+  animation: slide-down;
+  animation-duration: 500ms;
+}
+
+.notification p {
+  padding: 0.3em;
+}
+
+.notification hr {
+  color: var(--fg);
+}
+
 .hero {
   background: url(../assets/images/wallpaper-soup.jpg);
   background-position: center;
@@ -259,8 +285,15 @@ footer {
   align-items: flex-end;
 }
 
+.article-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
 .icon-button {
-  display: flex;  
+  display: flex;
   align-items: center;
   background: none;
   border: none;
@@ -270,7 +303,7 @@ footer {
 }
 
 .icon-button > img {
-  width: 1rem; 
+  width: 1rem;
   margin-right: 0.2rem;
 }
 
@@ -593,6 +626,10 @@ p.reference {
     padding: 1rem;
   }
 
+  .notification {
+    width: 80%;
+  }
+
   .hero {
     display: none;
   }
@@ -655,6 +692,15 @@ p.reference {
   }
 }
 
+@keyframes slide-down {
+  from {
+    transform: translate(-50%, -500px);
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
+}
+
 /* ===================== PRINTING ======================= */
 
 @media print {
@@ -665,26 +711,27 @@ p.reference {
 
   header,
   footer,
-  #print-button,
+  .article-background,
+  .icon-button,
   .reference-links,
   .license {
     display: none;
   }
-  
+
   .article-info {
     margin-top: 0;
   }
-  
+
   .article-author a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
   }
-  
+
   #article-title {
     margin-top: 0;
   }
-  
+
   .references {
     text-align: justify;
   }

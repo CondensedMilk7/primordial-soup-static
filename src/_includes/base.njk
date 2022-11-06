@@ -8,6 +8,7 @@
         <link rel="preload" as="image" href="/assets/images/wallpaper-soup.jpg">
         <link rel="stylesheet" href="/styles/main.css">
         <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script defer src="/scripts/main.js"></script>
         <meta property="og:title" content="{{ title }}"/>
         <meta property="og:image" content="{{ image }}"/>
         <meta property="og:description" content="{{ description }}"/>
@@ -15,6 +16,7 @@
     </head>
     <body>
         {% include 'header.njk' %}
+        {% include 'notification.njk' %}
         <main>
             {{ content | safe }}
         </main>
