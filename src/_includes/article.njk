@@ -4,9 +4,16 @@ layout: "base.njk"
 
 <article class="main-article">
     <div class="article-background"></div>
-    <button id="print-button" class="icon-button" onClick="print()"><img src="/assets/icons/print.svg"/>
-        <span>Print</span>
-    </button>
+    <div class="article-actions">
+        <button id="print-button" class="icon-button" onClick="print()">
+            <img src="/assets/icons/print.svg"/>
+            <span>Print</span>
+        </button>
+        <button class="icon-button" onClick='citeArticle({{ author | strArg }}, {{ date | getYear }}, {{ title | strArg }})'>
+            <img src="/assets/icons/quote.svg">
+            <span>Cite (APA)</span>
+        </button>
+    </div>
     <div class="article-info">
         <h1 id="article-title">{{ title }}
         </h1>
