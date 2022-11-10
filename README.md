@@ -13,7 +13,7 @@ Built with [11ty](https://www.11ty.dev/).
 - ~~Implement R-markdown style articles~~
   - ~~Use .bib file for centralized references store.~~
   - Generate references section and pirate links from .bib file in articles (currently it is generated from bibliography text).
-- Implement html-to-pdf article conversion so that users can download pdfs.
+- ~~Add support for printing articles.~~
 - Add support for multiple academic styles (APA, MLA, Chicago).
 - Custom reference source links if it is not available on sci-hub and libgen (maybe add property to an item in .bib file with the link).
 
