@@ -4,6 +4,7 @@ const { DateOrder } = require("./src/lib/date-order");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
 const configureMdBiblatex = require("./config/md-biblatex");
+const mdAnchor = require("markdown-it-anchor");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -52,8 +53,15 @@ module.exports = function (eleventyConfig) {
     linkify: true,
     typographer: true,
   });
+
   // New resource link generator
   configureMdBiblatex(md);
+
+  // Adds id attribute to headings
+  md.use(mdAnchor, {
+    permalink: mdAnchor.permalink.headerLink(),
+  });
+
   eleventyConfig.setLibrary("md", md);
 
   return {

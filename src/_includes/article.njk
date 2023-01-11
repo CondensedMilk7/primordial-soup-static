@@ -37,8 +37,8 @@ layout: "base.njk"
         </div>
         {{ content | safe }}
         {% if references %}
-            <section class="references">
-                <h2>References</h2>
+            <section id="references">
+                <h2><a href="#references">References</a></h2>
                 {%- for reference in references -%}
                     {% include "reference.njk" %}
                 {%- endfor -%}
