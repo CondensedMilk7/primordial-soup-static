@@ -458,11 +458,11 @@ h3 a:active {
   background: rgb(39, 38, 38);
 }
 
-#references {
+.bibliography {
   font-size: 1rem;
 }
 
-#references h2,
+.bibliography h2,
 .bibliography-title {
   font-size: 1.8rem;
 }
@@ -755,7 +755,7 @@ p.reference {
     margin-top: 0;
   }
 
-  #references {
+  .bibliography {
     text-align: justify;
   }
 }

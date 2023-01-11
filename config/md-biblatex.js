@@ -4,7 +4,8 @@ const { extractCitations, addLinks } = require("../src/lib/resource-link");
 function setupMdBiblatex(md) {
   md.use(mdBiblatex, {
     bibPath: "./bibliography.bib",
-    bibliographyTitle: "References",
+    // Hacky...
+    bibliographyTitle: '<a href="#references" id="references">References</a>',
   });
 
   const defaultRenderer =
