@@ -49,6 +49,8 @@ references:
   - Uznadze, D., & Haigh, B. (1966). The psychology of set. Consultants Bureau.
 ---
 
+[[toc]]
+
 # Abstract
 
 In the following work I briefly explore the general psychology of set – a field founded by Georgian psychologist Dimitri Uznadze

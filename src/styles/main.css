@@ -458,6 +458,16 @@ h3 a:active {
   background: rgb(39, 38, 38);
 }
 
+.table-of-contents a {
+  text-decoration: none;
+}
+
+.table-of-contents a:hover,
+.table-of-contents a:active {
+  text-decoration: underline;
+  color: var(--text-alt);
+}
+
 .bibliography {
   font-size: 1rem;
 }
@@ -736,6 +746,7 @@ p.reference {
   footer,
   .article-background,
   .icon-button,
+  .table-of-contents,
   .reference-links,
   .license {
     display: none;
