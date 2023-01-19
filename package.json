@@ -15,9 +15,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@arothuis/markdown-it-biblatex": "^0.3.0",
     "jasmine": "^4.4.0",
+    "markdown-it-anchor": "^8.6.6",
     "markdown-it-table-of-contents": "^0.6.0"
-  },
-  "dependencies": {
-    "markdown-it-anchor": "^8.6.6"
   }
 }
