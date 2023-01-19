@@ -360,6 +360,29 @@ footer {
   margin: 1.5rem 0;
 }
 
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h1 a:active,
+h2 a:active,
+h3 a:active {
+  color: var(--text-alt);
+  text-decoration: underline;
+}
+
 #article-title {
   margin: 0;
 }
@@ -435,11 +458,21 @@ footer {
   background: rgb(39, 38, 38);
 }
 
-.references {
+.table-of-contents a {
+  text-decoration: none;
+}
+
+.table-of-contents a:hover,
+.table-of-contents a:active {
+  text-decoration: underline;
+  color: var(--text-alt);
+}
+
+.bibliography {
   font-size: 1rem;
 }
 
-.references h2,
+.bibliography h2,
 .bibliography-title {
   font-size: 1.8rem;
 }
@@ -713,6 +746,7 @@ p.reference {
   footer,
   .article-background,
   .icon-button,
+  .table-of-contents,
   .reference-links,
   .license {
     display: none;
@@ -732,7 +766,7 @@ p.reference {
     margin-top: 0;
   }
 
-  .references {
+  .bibliography {
     text-align: justify;
   }
 }

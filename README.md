@@ -16,6 +16,7 @@ Built with [11ty](https://www.11ty.dev/).
 - ~~Add support for printing articles.~~
 - Add support for multiple academic styles (APA, MLA, Chicago).
 - Custom reference source links if it is not available on sci-hub and libgen (maybe add property to an item in .bib file with the link).
+- Table of contents on the side on wide screen, with dynamically highlighted chapters.
 
 ## License
 
