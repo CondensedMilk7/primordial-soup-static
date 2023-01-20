@@ -117,6 +117,46 @@ a {
   color: var(--fg);
 }
 
+#back-to-top {
+  position: fixed;
+  display: none;
+  right: 10vw;
+  bottom: 5rem;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: var(--bg);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  opacity: 90%;
+  border-radius: 100%;
+  transition: background-color 100ms linear;
+  animation-name: slide-in;
+  animation-duration: 1s;
+  color: var(--green);
+  z-index: 5;
+}
+
+#back-to-top:hover {
+  background-color: var(--text-alt);
+  cursor: pointer;
+}
+
+#back-to-top > a {
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+#back-to-top img {
+  width: 20px;
+  margin: 0;
+}
+
 .hero {
   background: url(../assets/images/wallpaper-soup.jpg);
   background-position: center;
@@ -633,14 +673,6 @@ p.reference {
 }
 
 @media (max-width: 900px) {
-  /* .main-nav {
-    display: none;
-  }
-
-  .hamburger {
-    display: block;
-  } */
-
   header {
     flex-direction: column;
     padding: 0;
@@ -661,6 +693,10 @@ p.reference {
 
   .notification {
     width: 80%;
+  }
+
+  #back-to-top {
+    right: 5vw;
   }
 
   .hero {
@@ -731,6 +767,18 @@ p.reference {
   }
   to {
     transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(300%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 0.9;
   }
 }
 
