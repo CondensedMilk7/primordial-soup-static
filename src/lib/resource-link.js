@@ -69,7 +69,7 @@ function libgen(title, authors, scimag) {
 
 function scihub(doi) {
   if (doi) {
-    return anchor("sci-hub", "sci-hub.png", "https://sci-hub.se/" + doi);
+    return anchor("sci-hub", "sci-hub.png", "https://sci-hub.ru/" + doi);
   } else {
     return null;
   }

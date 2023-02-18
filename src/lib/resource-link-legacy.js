@@ -19,7 +19,7 @@ class ResourceLink {
   static scihub(reference) {
     const doi = this.getDOI(reference);
     if (doi) {
-      return "https://sci-hub.se/" + doi;
+      return "https://sci-hub.ru/" + doi;
     } else {
       return null;
     }
